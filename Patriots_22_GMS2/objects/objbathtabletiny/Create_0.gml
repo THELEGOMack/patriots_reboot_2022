@@ -1,0 +1,1 @@
+image_index = choose(random(floor(5)))

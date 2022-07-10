@@ -1,0 +1,1 @@
+viewDist = 4;

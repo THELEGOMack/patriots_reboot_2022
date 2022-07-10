@@ -1,0 +1,14 @@
+state = "idle"
+speed = 1
+image_index = random(floor(8))
+hp = 1
+enemyLegs = sprMafiaLegs
+legIndex = 0
+legAngle = 0
+image_speed = 0.3*speed
+direction = image_angle
+weapon = noone
+lookDir = 0
+deathType = 0
+bullets = 0
+//rxnTime = 1

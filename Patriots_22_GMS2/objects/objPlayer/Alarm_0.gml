@@ -1,0 +1,2 @@
+/// @description Shell spawning
+scrSpawnShell();
