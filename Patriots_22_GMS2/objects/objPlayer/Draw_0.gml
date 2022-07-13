@@ -9,7 +9,7 @@ draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, loo
 if global.debug = true{
 	var text_1 = "Ammo: " + string(ammoPlayer);
     var text_2 = "Weapon: " + string(weapon);
-    var text_3 = "Walk Spd: " + string(walkSpeed);
+    var text_3 = "HP: " + string(hp);
 	var text_4 = "Shoot Timer: " + string(shootTimer);
     draw_text_transformed_color(x+10, y-5, text_1, 0.25, 0.25, 0, c_lime, c_lime, c_lime, c_lime, 1)
     draw_text_transformed_color(x+10, y-10, text_2, 0.25, 0.25, 0, c_lime, c_lime, c_lime, c_lime, 1)

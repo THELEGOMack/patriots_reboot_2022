@@ -10,7 +10,7 @@ switch(weapon)
 	case "Shotgun":
 		damage = 1; sfx = sndShotgun; shotgun = true; auto = false;
 		barrelLength = 20; flashValue = 12; shellToggle = true; shellSource = 9;
-		shotSpeed = 1; shotDelay = 30; spread = random_range(5, 7);	shootAnimSpeed = 2;
+		shotSpeed = 1; shotDelay = 40; spread = random_range(5, 7);	shootAnimSpeed = 2;
 		piercing = false; silenced = false;
 		break;
 	case "M16":

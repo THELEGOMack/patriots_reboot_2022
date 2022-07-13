@@ -3,7 +3,7 @@
     "name": "sprWoodFenceRight",
     "path": "sprites/sprWoodFenceRight/sprWoodFenceRight.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

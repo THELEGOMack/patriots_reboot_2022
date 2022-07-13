@@ -3,7 +3,7 @@
     "name": "sprRailsUp",
     "path": "sprites/sprRailsUp/sprRailsUp.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

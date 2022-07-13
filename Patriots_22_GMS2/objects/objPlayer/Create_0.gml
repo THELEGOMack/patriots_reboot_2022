@@ -33,10 +33,24 @@ playerLegs = sprPlayerLegs;
 legIndex = 0;
 attacking = 0;
 shootAnimSpeed = 0;
+hp = 2;
+
 //weapon variables
 weapon = noone;
 ammoPlayer = 0;
 shootTimer = 0;
+
+statePDead = function()
+{
+	canMove = false;
+	canShoot = false;
+	canLook =  false;
+	instance_destroy();
+	objCursor.visible = false;
+	var corpse = instance_create_layer(x, y, "FurnitureFloor", objPlayerDeadMachineGun);
+	corpse.image_angle = lookDir;
+	corpse.direction = lookDir;
+}
 
 //player character values
 switch (playerCharacter)
@@ -46,6 +60,7 @@ switch (playerCharacter)
 		playerLegs = sprSamLegs
         playerStr = 1.0
 		walkSpeed = 3
+		hp = 2;
 		
 		sprPlayerWalkUnarmed = sprSamWalkUnarmed;
 		sprPlayerWalkAK47 = sprSamWalkAK47;
@@ -62,6 +77,7 @@ switch (playerCharacter)
 		playerLegs = sprAdrianLegs
         playerStr = 1.0
 		walkSpeed = 3
+		hp = 60;
 		
 		//unique weapon origin values
 		switch  ("Silencer")
@@ -75,6 +91,10 @@ switch (playerCharacter)
 		
 		sprPlayerWalkUnarmed = sprAdrianWalkUnarmed;
 		sprPlayerWalkSilencer = sprAdrianWalkSilencer;
+		sprPlayerWalkShotgun = sprAdrianWalkShotgun;
+		sprPlayerWalkM16 = sprAdrianWalkM16;
+		sprPlayerWalkAK47 = sprAdrianWalkAK47;
+		sprPlayerWalkMagnum = sprAdrianWalkMagnum;
 		
 		break;
 	case "Valerie":
@@ -82,6 +102,7 @@ switch (playerCharacter)
 		playerLegs = sprValLegs
         playerStr = 0.8
 		walkSpeed = 3.5
+		hp = 2;
 		
 		//unique weapon origin values
 		

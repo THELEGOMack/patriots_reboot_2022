@@ -3,7 +3,7 @@
     "name": "sprWallV",
     "path": "sprites/sprWallV/sprWallV.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

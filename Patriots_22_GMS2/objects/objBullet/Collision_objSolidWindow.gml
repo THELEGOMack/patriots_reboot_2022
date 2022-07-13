@@ -3,4 +3,4 @@ if objPlayer.piercing = false
     instance_destroy();
     }
 	
-//copy for enemy code
+//copy for enemy code?

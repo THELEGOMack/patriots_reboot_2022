@@ -1,16 +1,13 @@
 {
-  "spriteId": {
-    "name": "sprMafiaWalkUnarmed",
-    "path": "sprites/sprMafiaWalkUnarmed/sprMafiaWalkUnarmed.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "objEnemy",
-    "path": "objects/objEnemy/objEnemy.yy",
+    "name": "objEnemyMafia",
+    "path": "objects/objEnemyMafia/objEnemyMafia.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,13 +25,7 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":6,"value":"sprMafiaWalkAK47R","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
-        "sprMafiaWalkAK47R",
-        "sprMafiaWalkAK47",
-      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"sprite_index","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"alerted","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Mafia",

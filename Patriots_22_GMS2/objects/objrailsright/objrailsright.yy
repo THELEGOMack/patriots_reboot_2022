@@ -3,7 +3,7 @@
     "name": "sprRailsRight",
     "path": "sprites/sprRailsRight/sprRailsRight.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

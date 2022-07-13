@@ -129,6 +129,7 @@ if (moveX != 0) or (moveY != 0) and (canMove = true)
 //current weapon
 if canShoot = true
 	{
+	shellDir = direction;
 	shootTimer--;
 		if shootTimer < -200
 			{
@@ -147,3 +148,8 @@ else if canShoot = false
 	{
 	shootTimer = 1;
 	}
+	
+if hp <= 0
+{
+	statePDead();
+}
