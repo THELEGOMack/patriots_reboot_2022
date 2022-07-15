@@ -34,6 +34,7 @@ legIndex = 0;
 attacking = 0;
 shootAnimSpeed = 0;
 hp = 2;
+pCorpse = 0;
 
 //weapon variables
 weapon = noone;
@@ -45,11 +46,16 @@ statePDead = function()
 	canMove = false;
 	canShoot = false;
 	canLook =  false;
-	instance_destroy();
+	visible = false;
 	objCursor.visible = false;
-	var corpse = instance_create_layer(x, y, "FurnitureFloor", objPlayerDeadMachineGun);
-	corpse.image_angle = lookDir;
-	corpse.direction = lookDir;
+	if pCorpse = 0
+	{
+		var corpse = instance_create_layer(x, y, "FurnitureFloor", objPlayerDeadMachineGun);
+		corpse.image_angle = direction;
+		corpse.direction = direction;
+		pCorpse = 1;
+	}
+	else {exit}
 }
 
 //player character values
@@ -77,7 +83,7 @@ switch (playerCharacter)
 		playerLegs = sprAdrianLegs
         playerStr = 1.0
 		walkSpeed = 3
-		hp = 60;
+		hp = 2;
 		
 		//unique weapon origin values
 		switch  ("Silencer")

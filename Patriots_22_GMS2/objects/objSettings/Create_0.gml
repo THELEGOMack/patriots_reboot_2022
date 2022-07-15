@@ -2,7 +2,7 @@
 randomize()
 room_goto(rmTitle)
 window_set_cursor(cr_none)
-global.debug = true
+global.debug = false
 global.viewDistance = 180
 
 global.timescale=1

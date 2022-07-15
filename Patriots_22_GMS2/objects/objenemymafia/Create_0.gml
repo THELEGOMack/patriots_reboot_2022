@@ -1,56 +1,4 @@
-//state machine
-stateIdle = function()
-{
-	stateTXT = "idle"
-	aggroTimer = 0;
-	if (instance_exists(objPlayer))
-	{
-		if (distance_to_object(objPlayer) <= 40)
-		{
-			stateAlert();
-		}
-	}
-}
-
-stateAlert = function()
-{
-stateTXT = "alert"
-switch (sprite_index)
-	{
-	case sprMafiaWalkAK47R: sprite_index = sprMafiaWalkAK47; break;
-	case sprMafiaWalkM16R:
-	case sprMafiaIdleM16: sprite_index = sprMafiaWalkM16; break;
-	case sprMafiaWalkShotgunR: sprite_index = sprMafiaWalkShotgun; break;
-	case sprMafiaIdlePhoneSilencer:
-	case sprMafiaWalkSilencerR: sprite_index = sprMafiaWalkSilencer; break;
-	default: break;
-	}
-lookDir = point_direction(x, y, objPlayer.x, objPlayer.y)
-direction = lerp(direction, lookDir, 0.1);
-aggroTimer++; //just use a time source or alarm
-if aggroTimer >= 1 {stateAttacking();}
-}
-
-stateAttacking = function()
-{
-	if attacking = false
-	{
-		if ((currentAmmo > 0) and (shootTimer <= 0))
-		{
-			EShoot();
-		}
-	}
-}
-
-stateDead = function()
-{
-	stateTXT = "dead"
-	instance_destroy();
-}
-
-//more states, etc.
-
-//drop init
+//drop init, weapon assignment
 switch(sprite_index)
 {
 case sprMafiaWalkAK47:
@@ -66,15 +14,18 @@ case sprMafiaIdlePhoneSilencer: weapon = "Silencer"; drop = sprSilencer; ammoEne
 default: break;
 }
 
-currentAmmo = ammoEnemy;
+//initialize variables
+state = 0;
+sightDistance = 200;
 attacking = false;
 shootTimer = 0;
-
-direction = image_angle;
-lookDir = 0;
+rxnTime = 20;
 aggroTimer = 0;
+alertTimer = 0;
 hp = 1;
-stateTXT = "null"
-stateIdle();
-weaponValues();
+stateTXT = "null";
 shellToggle = false;
+image_speed = 0;
+direction = image_angle;
+currentAmmo = ammoEnemy;
+weaponValues();

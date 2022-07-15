@@ -1,4 +1,5 @@
-if hp = 1
+hp--;
+if hp <= 1
 {
-	lookDir = other.direction;
+	direction = other.direction;
 }

@@ -3,4 +3,4 @@ if objPlayer.piercing = false
 	{
 	instance_destroy(other);
 	}
-lookDir = other.direction;
+image_angle = other.direction;
