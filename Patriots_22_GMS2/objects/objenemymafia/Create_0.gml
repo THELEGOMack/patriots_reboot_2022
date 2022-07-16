@@ -16,16 +16,17 @@ default: break;
 
 //initialize variables
 state = 0;
-sightDistance = 200;
+sightDistance = 300;
 attacking = false;
 shootTimer = 0;
-rxnTime = 20;
+rxnTime = 100;
 aggroTimer = 0;
 alertTimer = 0;
 hp = 1;
 stateTXT = "null";
 shellToggle = false;
+seePlayer = false;
 image_speed = 0;
-direction = image_angle;
+image_angle = direction;
 currentAmmo = ammoEnemy;
 weaponValues();

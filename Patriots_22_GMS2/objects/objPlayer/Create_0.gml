@@ -34,7 +34,8 @@ legIndex = 0;
 attacking = 0;
 shootAnimSpeed = 0;
 hp = 2;
-pCorpse = 0;
+global.playerDead = false;
+//pCorpse = 0;
 
 //weapon variables
 weapon = noone;
@@ -48,12 +49,12 @@ statePDead = function()
 	canLook =  false;
 	visible = false;
 	objCursor.visible = false;
-	if pCorpse = 0
+	if global.playerDead = false
 	{
 		var corpse = instance_create_layer(x, y, "FurnitureFloor", objPlayerDeadMachineGun);
 		corpse.image_angle = direction;
 		corpse.direction = direction;
-		pCorpse = 1;
+		global.playerDead = true;
 	}
 	else {exit}
 }

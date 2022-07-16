@@ -13,22 +13,34 @@ if shootTimer < -200
 }
 
 aggroTimer = clamp(aggroTimer, 0, rxnTime);
-alertTimer = clamp(alertTimer, 0, 20);
+alertTimer = clamp(alertTimer, 0, rxnTime);
+seePlayer = ((point_distance(x, y, objPlayer.x, objPlayer.y) < sightDistance) and (!collision_line(x, y, objPlayer.x, objPlayer.y, objSolidWall, false, false)))
+
+if global.playerDead = true
+{
+	state = 6; //this should be the only way "player death" state can be active...
+}
 
 //state machine
 switch(state)
 {
-	#region idle
+	#region idle/unresponsive
 	case 0:
 	stateTXT = "idle"
 
-	//behavior
-
 	//transition trigger(s)
-	if ((point_distance(x, y, objPlayer.x, objPlayer.y) < sightDistance) and (!collision_line(x, y, objPlayer.x, objPlayer.y, objSolidWall, false, false)))
+	if seePlayer = true
 	{
-		//account for reaction time!
-		state = 3;
+		alertTimer++;
+		if alertTimer >= rxnTime
+		{
+			state = 3;
+		}
+	}
+	else
+	{
+		aggroTimer--;
+		alertTimer--;
 	}
 	
 	break;
@@ -50,28 +62,31 @@ switch(state)
 	break;
 	#endregion
 	
-	#region alert
+	#region alert/armed
 	case 3:
 	stateTXT = "alert"
 	
 	//behavior
+	aggroTimer++;
+	if seePlayer = true
+	{
 		direction = lerp(direction, point_direction(x, y, objPlayer.x, objPlayer.y), 0.2);
-		
-	//transition trigger(s)
-	if ((point_distance(x, y, objPlayer.x, objPlayer.y) < sightDistance) and (!collision_line(x, y, objPlayer.x, objPlayer.y, objSolidWall, false, false)))
-	{
-		if (objPlayer.pCorpse = 1)
-		{
-			state = 6;
-		}
-		else
-		{
-			state = 7;
-		}
 	}
-	else
+	
+	//transition trigger(s)
+	if seePlayer = true
 	{
-		state = 5;
+		if (abs(angle_difference(direction, point_direction(x, y, objPlayer.x, objPlayer.y)) < 15))
+		{
+			if (aggroTimer >= rxnTime)
+			{
+				state = 4;
+			}
+			else if (aggroTimer < rxnTime)
+			{
+				exit;
+			}
+		}
 	}
 
 	//set sprite
@@ -86,58 +101,70 @@ switch(state)
 		case sprMafiaIdlePhoneSilencer:sprite_index = sprMafiaWalkSilencer; break;
 		default: break;
 	}
+	break;
 	#endregion
 	
-	#region searching
-	case 5:
+	#region searching/aiming
+	case 4:
 	stateTXT = "searching"
 	
 	//behavior
-	if ((point_distance(x, y, objPlayer.x, objPlayer.y) < sightDistance) and (!collision_line(x, y, objPlayer.x, objPlayer.y, objSolidWall, false, false)))
+		//if in range, turn to player
+		//else
+			//get player's last known position
+			//go to player's last known position
+			//return to ALERT state
+	
+	//transition trigger(s)
+	if seePlayer = true
 	{
-		state = 6;
+		if (abs(angle_difference(direction, point_direction(x, y, objPlayer.x, objPlayer.y)) < 15))
+		state = 5;
 	}
 	else
 	{
-		exit; //chase
+		aggroTimer *= 0.97;
+		state = 3;
 	}
 	
-	//transition trigger(s)
 	break;
 	#endregion
 	
 	#region shooting
-	case 6:
-	stateTXT = "shooting"
+	case 5:
 	
 	//behavior
-	direction = lerp(direction, point_direction(x, y, objPlayer.x, objPlayer.y), 0.2);
-	if (objPlayer.pCorpse = 0)
+	direction = lerp(direction, point_direction(x, y, objPlayer.x, objPlayer.y), 0.5);
+	if (global.playerDead = false)
 	{
 		if (weapon = choose("Silencer", "M16", "AK47", "Shotgun"))
 		{
-			if (abs(angle_difference(direction, point_direction(x, y, objPlayer.x, objPlayer.y)) < 45))
+			if (shootTimer <= 0) and (currentAmmo > 0) //and (global.playerDead = false)
 			{
-				if (shootTimer <= 0) and (currentAmmo > 0)
-				{
-					EShoot();
-				}
+				stateTXT = "shooting"
+				EShoot();
+				state = 4;
 			}
 		}
 	}
-	else if (objPlayer.pCorpse = 1)
-	{
-		state = 7;
-	}
 	//transition trigger(s)
+	if seePlayer = false
+	{
+		state = 4;
+	}
 	
+	break;
 	#endregion
 	
 	#region player dead
-	case 7:
+	case 6:
 	stateTXT = "player dead"
 	//behavior
 		//coin toss: random, wander, or stay still
 	break;
 	#endregion
+	
+	//more states, etc.
+	
+	default: break;
 }
