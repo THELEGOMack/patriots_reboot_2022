@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Vehicles",
-    "path": "folders/Objects/Furniture/Vehicles.yy",
+    "path": "folders/Objects/Player/Vehicles.yy",
   },
   "resourceVersion": "1.0",
   "name": "objSamBike",

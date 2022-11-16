@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprSamPhone",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,22 +17,23 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 18,
   "height": 36,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Sam_Apartment",
+    "path": "texturegroups/Room_Sam_Apartment",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1170a5c4-0e43-4bfb-addd-05aaccb81af6","path":"sprites/sprSamPhone/sprSamPhone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1170a5c4-0e43-4bfb-addd-05aaccb81af6","path":"sprites/sprSamPhone/sprSamPhone.yy",},"LayerId":{"name":"036ed4ab-57f9-45ca-8c19-d57ed5b88276","path":"sprites/sprSamPhone/sprSamPhone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamPhone","path":"sprites/sprSamPhone/sprSamPhone.yy",},"resourceVersion":"1.0","name":"1170a5c4-0e43-4bfb-addd-05aaccb81af6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1170a5c4-0e43-4bfb-addd-05aaccb81af6",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprSamPhone","path":"sprites/sprSamPhone/sprSamPhone.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprSamPhone",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e3eb47a8-d9c0-43c4-b360-ae04ca195af5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1170a5c4-0e43-4bfb-addd-05aaccb81af6","path":"sprites/sprSamPhone/sprSamPhone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 18,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprSamPhone","path":"sprites/sprSamPhone/sprSamPhone.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprSamPhone",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"036ed4ab-57f9-45ca-8c19-d57ed5b88276","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"036ed4ab-57f9-45ca-8c19-d57ed5b88276","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sam Apartment",
     "path": "folders/Sprites/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprSamPhone",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

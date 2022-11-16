@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "objPlayerClip",
-    "path": "objects/objPlayerClip/objPlayerClip.yy",
+    "name": "objLOSBlocker",
+    "path": "objects/objLOSBlocker/objLOSBlocker.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

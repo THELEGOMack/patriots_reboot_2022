@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprWaterPuddle",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,31 +17,26 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Bathhouse",
+    "path": "texturegroups/Room_Bathhouse",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c68594c3-8230-4e21-a3e0-49816aec19d9","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c68594c3-8230-4e21-a3e0-49816aec19d9","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"LayerId":{"name":"bc503d75-e2d7-48d3-87d9-0d88820857bd","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprWaterPuddle","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","name":"c68594c3-8230-4e21-a3e0-49816aec19d9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6383e89a-c559-482c-821c-0f639d4e1486","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6383e89a-c559-482c-821c-0f639d4e1486","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"LayerId":{"name":"bc503d75-e2d7-48d3-87d9-0d88820857bd","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprWaterPuddle","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","name":"6383e89a-c559-482c-821c-0f639d4e1486","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5feb51e6-bb03-47fd-9467-20014fed4940","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5feb51e6-bb03-47fd-9467-20014fed4940","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"LayerId":{"name":"bc503d75-e2d7-48d3-87d9-0d88820857bd","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprWaterPuddle","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","name":"5feb51e6-bb03-47fd-9467-20014fed4940","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fae85514-6d53-4276-a21d-960d58a4e53a","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fae85514-6d53-4276-a21d-960d58a4e53a","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"LayerId":{"name":"bc503d75-e2d7-48d3-87d9-0d88820857bd","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprWaterPuddle","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","name":"fae85514-6d53-4276-a21d-960d58a4e53a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c68594c3-8230-4e21-a3e0-49816aec19d9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6383e89a-c559-482c-821c-0f639d4e1486",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5feb51e6-bb03-47fd-9467-20014fed4940",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fae85514-6d53-4276-a21d-960d58a4e53a",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprWaterPuddle","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprWaterPuddle",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 4.0,
@@ -49,12 +47,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"85c223ba-80e2-43ee-b3a4-95dad0819e29","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c68594c3-8230-4e21-a3e0-49816aec19d9","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1692498b-0475-4a17-9f67-2585ee0fe52a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6383e89a-c559-482c-821c-0f639d4e1486","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d76583e9-36f1-461d-ae7f-5dc7dd5d3c47","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5feb51e6-bb03-47fd-9467-20014fed4940","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"832034b3-0799-4b7d-b7a4-26f836d68c09","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fae85514-6d53-4276-a21d-960d58a4e53a","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +68,13 @@
     "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprWaterPuddle","path":"sprites/sprWaterPuddle/sprWaterPuddle.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprWaterPuddle",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bc503d75-e2d7-48d3-87d9-0d88820857bd","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bc503d75-e2d7-48d3-87d9-0d88820857bd","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bathhouse",
     "path": "folders/Sprites/Furniture/Bathhouse.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprWaterPuddle",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

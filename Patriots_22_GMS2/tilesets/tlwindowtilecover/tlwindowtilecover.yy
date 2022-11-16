@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tlWindowTileCover",
   "spriteId": {
     "name": "windowfloorcover",
     "path": "sprites/windowfloorcover/windowfloorcover.yy",
@@ -11,8 +14,8 @@
   "tilevsep": 0,
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Tiles",
+    "path": "texturegroups/Tiles",
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
@@ -51,8 +54,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tlWindowTileCover",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

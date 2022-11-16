@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprMassageTools",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -14,37 +17,28 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 20,
   "height": 20,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Bathhouse",
+    "path": "texturegroups/Room_Bathhouse",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6857a00e-5f6a-4a7d-ad91-f40fd5a751d3","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6857a00e-5f6a-4a7d-ad91-f40fd5a751d3","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":{"name":"0782b677-80d4-471b-bf27-ee614791e4e6","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMassageTools","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"6857a00e-5f6a-4a7d-ad91-f40fd5a751d3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4a56dca2-8b35-485c-9312-80b6e213c895","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4a56dca2-8b35-485c-9312-80b6e213c895","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":{"name":"0782b677-80d4-471b-bf27-ee614791e4e6","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMassageTools","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"4a56dca2-8b35-485c-9312-80b6e213c895","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"68327c9c-c210-42af-a4ca-d061d2ce905d","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"68327c9c-c210-42af-a4ca-d061d2ce905d","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":{"name":"0782b677-80d4-471b-bf27-ee614791e4e6","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMassageTools","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"68327c9c-c210-42af-a4ca-d061d2ce905d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5b47c69b-41c4-4e18-8e0a-78dbd28049ef","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5b47c69b-41c4-4e18-8e0a-78dbd28049ef","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":{"name":"0782b677-80d4-471b-bf27-ee614791e4e6","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMassageTools","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"5b47c69b-41c4-4e18-8e0a-78dbd28049ef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d77d9b7c-131d-4650-8374-1d3b54635435","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d77d9b7c-131d-4650-8374-1d3b54635435","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":{"name":"0782b677-80d4-471b-bf27-ee614791e4e6","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMassageTools","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"d77d9b7c-131d-4650-8374-1d3b54635435","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f609f86b-2dc0-48a2-a2be-959bd164afb7","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f609f86b-2dc0-48a2-a2be-959bd164afb7","path":"sprites/sprMassageTools/sprMassageTools.yy",},"LayerId":{"name":"0782b677-80d4-471b-bf27-ee614791e4e6","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMassageTools","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","name":"f609f86b-2dc0-48a2-a2be-959bd164afb7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6857a00e-5f6a-4a7d-ad91-f40fd5a751d3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4a56dca2-8b35-485c-9312-80b6e213c895",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"68327c9c-c210-42af-a4ca-d061d2ce905d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b47c69b-41c4-4e18-8e0a-78dbd28049ef",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d77d9b7c-131d-4650-8374-1d3b54635435",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f609f86b-2dc0-48a2-a2be-959bd164afb7",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprMassageTools","path":"sprites/sprMassageTools/sprMassageTools.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprMassageTools",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7490304e-febd-4416-8b56-8f3f03c9f035","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6857a00e-5f6a-4a7d-ad91-f40fd5a751d3","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0f7969a2-c5d3-4741-acb4-f701e8d77701","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4a56dca2-8b35-485c-9312-80b6e213c895","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"18955e94-6a1d-4b95-91c7-699f9aa1f77c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68327c9c-c210-42af-a4ca-d061d2ce905d","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d6532b31-344a-49a9-8db5-1fdf437bfdf6","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5b47c69b-41c4-4e18-8e0a-78dbd28049ef","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c28042eb-5595-4c99-a610-609096caea3b","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d77d9b7c-131d-4650-8374-1d3b54635435","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"41b38641-33fa-4673-a8e1-ed6a57eb832c","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f609f86b-2dc0-48a2-a2be-959bd164afb7","path":"sprites/sprMassageTools/sprMassageTools.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprMassageTools","path":"sprites/sprMassageTools/sprMassageTools.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprMassageTools",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0782b677-80d4-471b-bf27-ee614791e4e6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0782b677-80d4-471b-bf27-ee614791e4e6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bathhouse",
     "path": "folders/Sprites/Furniture/Bathhouse.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprMassageTools",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

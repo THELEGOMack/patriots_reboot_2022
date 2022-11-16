@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objPlantHuge",
   "spriteId": {
     "name": "sprPlantHuge",
     "path": "sprites/sprPlantHuge/sprPlantHuge.yy",
@@ -25,7 +28,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +37,4 @@
     "name": "Sam Apartment",
     "path": "folders/Objects/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objPlantHuge",
-  "tags": [],
-  "resourceType": "GMObject",
 }

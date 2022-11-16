@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprBathArmchair",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,22 +17,23 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 30,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Bathhouse",
+    "path": "texturegroups/Room_Bathhouse",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4b37b1c3-b278-499a-8a4b-2dc6f5a8d861","path":"sprites/sprBathArmchair/sprBathArmchair.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4b37b1c3-b278-499a-8a4b-2dc6f5a8d861","path":"sprites/sprBathArmchair/sprBathArmchair.yy",},"LayerId":{"name":"c69a8de1-b23c-482b-91ba-57187129c34e","path":"sprites/sprBathArmchair/sprBathArmchair.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprBathArmchair","path":"sprites/sprBathArmchair/sprBathArmchair.yy",},"resourceVersion":"1.0","name":"4b37b1c3-b278-499a-8a4b-2dc6f5a8d861","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4b37b1c3-b278-499a-8a4b-2dc6f5a8d861",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprBathArmchair","path":"sprites/sprBathArmchair/sprBathArmchair.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprBathArmchair",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"93c449cb-74c6-4756-ac0f-8082787e38a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4b37b1c3-b278-499a-8a4b-2dc6f5a8d861","path":"sprites/sprBathArmchair/sprBathArmchair.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprBathArmchair","path":"sprites/sprBathArmchair/sprBathArmchair.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprBathArmchair",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c69a8de1-b23c-482b-91ba-57187129c34e","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c69a8de1-b23c-482b-91ba-57187129c34e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bathhouse",
     "path": "folders/Sprites/Furniture/Bathhouse.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprBathArmchair",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

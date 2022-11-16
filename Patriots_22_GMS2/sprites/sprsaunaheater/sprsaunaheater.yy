@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprSaunaHeater",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,52 +17,33 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 30,
   "height": 15,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Bathhouse",
+    "path": "texturegroups/Room_Bathhouse",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bc564242-3db5-48b5-ad31-0f92fecad30a","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bc564242-3db5-48b5-ad31-0f92fecad30a","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"bc564242-3db5-48b5-ad31-0f92fecad30a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5fd776e4-f984-41b5-be13-ac5903eef39f","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5fd776e4-f984-41b5-be13-ac5903eef39f","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"5fd776e4-f984-41b5-be13-ac5903eef39f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e21072b7-9ed5-45a0-972c-c6b461f0af89","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e21072b7-9ed5-45a0-972c-c6b461f0af89","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"e21072b7-9ed5-45a0-972c-c6b461f0af89","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dcebc8a9-a235-40e8-be5b-6677a531fcee","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dcebc8a9-a235-40e8-be5b-6677a531fcee","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"dcebc8a9-a235-40e8-be5b-6677a531fcee","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7e8485cc-ef0d-4527-99ba-db8ee15bc78d","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7e8485cc-ef0d-4527-99ba-db8ee15bc78d","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"7e8485cc-ef0d-4527-99ba-db8ee15bc78d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"04c0d97c-bfe0-4388-8e65-a1ac210bb8f4","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"04c0d97c-bfe0-4388-8e65-a1ac210bb8f4","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"04c0d97c-bfe0-4388-8e65-a1ac210bb8f4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"581ed86f-30a2-45d2-ae94-510bb4785131","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"581ed86f-30a2-45d2-ae94-510bb4785131","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"581ed86f-30a2-45d2-ae94-510bb4785131","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4f6a3e2c-2680-4877-a708-02cfc8c008ff","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4f6a3e2c-2680-4877-a708-02cfc8c008ff","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"4f6a3e2c-2680-4877-a708-02cfc8c008ff","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"06e68102-65a3-4bc5-a672-2116efb6e6fc","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"06e68102-65a3-4bc5-a672-2116efb6e6fc","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"06e68102-65a3-4bc5-a672-2116efb6e6fc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b6b21abd-80d4-4e87-be98-eb0d6e9d74e7","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b6b21abd-80d4-4e87-be98-eb0d6e9d74e7","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"b6b21abd-80d4-4e87-be98-eb0d6e9d74e7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2ab64700-dc6a-411e-b585-a75ec6bae796","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2ab64700-dc6a-411e-b585-a75ec6bae796","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"LayerId":{"name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","name":"2ab64700-dc6a-411e-b585-a75ec6bae796","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc564242-3db5-48b5-ad31-0f92fecad30a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5fd776e4-f984-41b5-be13-ac5903eef39f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e21072b7-9ed5-45a0-972c-c6b461f0af89",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dcebc8a9-a235-40e8-be5b-6677a531fcee",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7e8485cc-ef0d-4527-99ba-db8ee15bc78d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"04c0d97c-bfe0-4388-8e65-a1ac210bb8f4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"581ed86f-30a2-45d2-ae94-510bb4785131",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4f6a3e2c-2680-4877-a708-02cfc8c008ff",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"06e68102-65a3-4bc5-a672-2116efb6e6fc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6b21abd-80d4-4e87-be98-eb0d6e9d74e7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2ab64700-dc6a-411e-b585-a75ec6bae796",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprSaunaHeater",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -70,7 +54,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5de00b84-632c-42f8-8c22-9288cbed94cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc564242-3db5-48b5-ad31-0f92fecad30a","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"bab341b0-4105-4883-ab78-87d4f6d4c49d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5fd776e4-f984-41b5-be13-ac5903eef39f","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7a2f82c6-d2dc-42c3-ab8c-7f69c8c01f12","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e21072b7-9ed5-45a0-972c-c6b461f0af89","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -82,7 +66,7 @@
             {"id":"4862352d-4d9c-48f6-b324-874da423a0dd","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"06e68102-65a3-4bc5-a672-2116efb6e6fc","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6b703e97-13bd-4523-9979-17a33b5f9077","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b6b21abd-80d4-4e87-be98-eb0d6e9d74e7","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c9177f93-eabb-42e0-ae87-903c10613e3d","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ab64700-dc6a-411e-b585-a75ec6bae796","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -98,22 +82,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprSaunaHeater","path":"sprites/sprSaunaHeater/sprSaunaHeater.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprSaunaHeater",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"16f46c56-f9e7-4442-b0de-38800e8c4f15","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bathhouse",
     "path": "folders/Sprites/Furniture/Bathhouse.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprSaunaHeater",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

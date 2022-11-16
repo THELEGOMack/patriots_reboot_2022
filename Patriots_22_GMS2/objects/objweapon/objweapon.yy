@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objWeapon",
   "spriteId": {
-    "name": "sprite28_weapon_0",
-    "path": "sprites/sprite28_weapon_0/sprite28_weapon_0.yy",
+    "name": "sprIconWeapon",
+    "path": "sprites/sprIconWeapon/sprIconWeapon.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,11 +25,11 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [
-    {"varType":2,"value":"AK47","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"weapon","varType":2,"value":"AK47","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
         "AK47",
         "M16",
         "Silencer",
@@ -34,15 +37,11 @@
         "Shotgun",
         "DoubleBarrel",
         "Magnum",
-      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"weapon","tags":[],"resourceType":"GMObjectProperty",},
+      ],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "Weapon",
     "path": "folders/Objects/Weapon.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objWeapon",
-  "tags": [],
-  "resourceType": "GMObject",
 }

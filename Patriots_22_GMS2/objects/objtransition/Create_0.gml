@@ -1,5 +1,5 @@
-var targetRoom, targetX, targetY;
+var targetRoom, targetX, targetY, targetLayer;
 
 //init
-arrow = 0;
 active = true;
+subImg = 0;

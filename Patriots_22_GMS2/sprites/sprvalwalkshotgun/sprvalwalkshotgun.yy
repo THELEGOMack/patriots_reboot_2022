@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprValWalkShotgun",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,43 +17,30 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 50,
   "height": 25,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Player_Val",
+    "path": "texturegroups/Player_Val",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1c344f45-366a-4723-973c-3671988d5d6a","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1c344f45-366a-4723-973c-3671988d5d6a","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":{"name":"69788358-1d43-4376-bb0d-b6211b9fce33","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprValWalkShotgun","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"1c344f45-366a-4723-973c-3671988d5d6a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b129a7e8-7bb3-4fc7-99fc-ba6e7571f59d","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b129a7e8-7bb3-4fc7-99fc-ba6e7571f59d","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":{"name":"69788358-1d43-4376-bb0d-b6211b9fce33","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprValWalkShotgun","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"b129a7e8-7bb3-4fc7-99fc-ba6e7571f59d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"78079bb0-2b31-459e-9c58-434200689831","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"78079bb0-2b31-459e-9c58-434200689831","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":{"name":"69788358-1d43-4376-bb0d-b6211b9fce33","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprValWalkShotgun","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"78079bb0-2b31-459e-9c58-434200689831","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f0a2c2b5-a35b-4eca-ad4d-367e9606f7a1","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f0a2c2b5-a35b-4eca-ad4d-367e9606f7a1","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":{"name":"69788358-1d43-4376-bb0d-b6211b9fce33","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprValWalkShotgun","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"f0a2c2b5-a35b-4eca-ad4d-367e9606f7a1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e6e97682-dea5-4520-83f4-0f7fc55d9a03","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e6e97682-dea5-4520-83f4-0f7fc55d9a03","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":{"name":"69788358-1d43-4376-bb0d-b6211b9fce33","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprValWalkShotgun","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"e6e97682-dea5-4520-83f4-0f7fc55d9a03","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c204debf-97ed-4557-b714-1bf155ef660c","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c204debf-97ed-4557-b714-1bf155ef660c","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":{"name":"69788358-1d43-4376-bb0d-b6211b9fce33","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprValWalkShotgun","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"c204debf-97ed-4557-b714-1bf155ef660c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e0004976-a455-4d4f-a3a3-fd999bdacab0","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e0004976-a455-4d4f-a3a3-fd999bdacab0","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":{"name":"69788358-1d43-4376-bb0d-b6211b9fce33","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprValWalkShotgun","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"e0004976-a455-4d4f-a3a3-fd999bdacab0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b0844a97-104f-43ae-bf2e-06710f08aee8","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b0844a97-104f-43ae-bf2e-06710f08aee8","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"LayerId":{"name":"69788358-1d43-4376-bb0d-b6211b9fce33","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprValWalkShotgun","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","name":"b0844a97-104f-43ae-bf2e-06710f08aee8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1c344f45-366a-4723-973c-3671988d5d6a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b129a7e8-7bb3-4fc7-99fc-ba6e7571f59d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"78079bb0-2b31-459e-9c58-434200689831",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f0a2c2b5-a35b-4eca-ad4d-367e9606f7a1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e6e97682-dea5-4520-83f4-0f7fc55d9a03",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c204debf-97ed-4557-b714-1bf155ef660c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e0004976-a455-4d4f-a3a3-fd999bdacab0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b0844a97-104f-43ae-bf2e-06710f08aee8",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprValWalkShotgun","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprValWalkShotgun",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -61,7 +51,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"45728c2d-812a-41b7-b275-0cfd3d850d9c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1c344f45-366a-4723-973c-3671988d5d6a","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"acaf7e5f-a74d-4fe6-8964-f1060c66f04f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b129a7e8-7bb3-4fc7-99fc-ba6e7571f59d","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"baf10f39-fc8c-4ab0-b7cb-58d73f1227aa","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"78079bb0-2b31-459e-9c58-434200689831","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -70,7 +60,7 @@
             {"id":"a7adfded-6d8f-4146-b6d6-77305196f898","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c204debf-97ed-4557-b714-1bf155ef660c","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"21e502c4-6e5c-4080-bad4-10dd38326e74","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e0004976-a455-4d4f-a3a3-fd999bdacab0","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"16375351-c5c6-4f90-9018-79901aa3e8eb","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b0844a97-104f-43ae-bf2e-06710f08aee8","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -86,22 +76,13 @@
     "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprValWalkShotgun","path":"sprites/sprValWalkShotgun/sprValWalkShotgun.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprValWalkShotgun",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"69788358-1d43-4376-bb0d-b6211b9fce33","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"69788358-1d43-4376-bb0d-b6211b9fce33","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Valerie",
     "path": "folders/Sprites/Player/Valerie.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprValWalkShotgun",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

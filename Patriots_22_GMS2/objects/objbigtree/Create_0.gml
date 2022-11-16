@@ -1,3 +1,6 @@
-sway = 0;
-image_index = random(360);
-alarm[0] = 5 + random(200);
+swayMod = random_range(40, 50);
+startingAngle = random(360);
+swayDelay = random(5);
+image_angle = startingAngle;
+
+//create leaves

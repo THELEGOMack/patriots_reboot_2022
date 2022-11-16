@@ -1,5 +1,5 @@
 function scrSpawnShell(){
-var _shellInst = instance_create_layer(x + lengthdir_x(shellSource, lookDir), y + lengthdir_y(shellSource, lookDir), layer, objShell);
+var _shellInst = instance_create_layer(x + lengthdir_x(shellSource, lookDir), y + lengthdir_y(shellSource, lookDir), "body_layer", objShell);
 switch(weapon)
     {
     case "Shotgun":  _shellInst.image_index = 0; _shellInst.direction += 180;																					  break;

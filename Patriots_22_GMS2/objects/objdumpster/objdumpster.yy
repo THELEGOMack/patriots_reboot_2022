@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objDumpster",
   "spriteId": {
     "name": "sprDumpster",
     "path": "sprites/sprDumpster/sprDumpster.yy",
@@ -31,8 +34,4 @@
     "name": "Bathhouse",
     "path": "folders/Objects/Furniture/Bathhouse.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objDumpster",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tlHardwood",
   "spriteId": {
     "name": "hardwood",
     "path": "sprites/hardwood/hardwood.yy",
@@ -11,8 +14,8 @@
   "tilevsep": 0,
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Tiles",
+    "path": "texturegroups/Tiles",
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
@@ -107,8 +110,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tlHardwood",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

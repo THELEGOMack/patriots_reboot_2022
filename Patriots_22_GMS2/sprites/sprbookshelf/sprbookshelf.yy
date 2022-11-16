@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprBookshelf",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,25 +17,24 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 9,
   "height": 51,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Sam_Apartment",
+    "path": "texturegroups/Room_Sam_Apartment",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7672b847-c6ba-4f1e-abbf-4be53b18421c","path":"sprites/sprBookshelf/sprBookshelf.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7672b847-c6ba-4f1e-abbf-4be53b18421c","path":"sprites/sprBookshelf/sprBookshelf.yy",},"LayerId":{"name":"8246267e-c5e7-48f1-a928-3567e95852f9","path":"sprites/sprBookshelf/sprBookshelf.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprBookshelf","path":"sprites/sprBookshelf/sprBookshelf.yy",},"resourceVersion":"1.0","name":"7672b847-c6ba-4f1e-abbf-4be53b18421c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"04e1ce93-63f2-4cf2-a508-0dfe96540b17","path":"sprites/sprBookshelf/sprBookshelf.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"04e1ce93-63f2-4cf2-a508-0dfe96540b17","path":"sprites/sprBookshelf/sprBookshelf.yy",},"LayerId":{"name":"8246267e-c5e7-48f1-a928-3567e95852f9","path":"sprites/sprBookshelf/sprBookshelf.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprBookshelf","path":"sprites/sprBookshelf/sprBookshelf.yy",},"resourceVersion":"1.0","name":"04e1ce93-63f2-4cf2-a508-0dfe96540b17","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7672b847-c6ba-4f1e-abbf-4be53b18421c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"04e1ce93-63f2-4cf2-a508-0dfe96540b17",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprBookshelf","path":"sprites/sprBookshelf/sprBookshelf.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprBookshelf",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2b65e6b8-0f07-4118-bf14-7a216b85ee98","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7672b847-c6ba-4f1e-abbf-4be53b18421c","path":"sprites/sprBookshelf/sprBookshelf.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"563b17a7-b36e-4adb-ab09-4519fe302a01","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"04e1ce93-63f2-4cf2-a508-0dfe96540b17","path":"sprites/sprBookshelf/sprBookshelf.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprBookshelf","path":"sprites/sprBookshelf/sprBookshelf.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprBookshelf",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8246267e-c5e7-48f1-a928-3567e95852f9","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8246267e-c5e7-48f1-a928-3567e95852f9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sam Apartment",
     "path": "folders/Sprites/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprBookshelf",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

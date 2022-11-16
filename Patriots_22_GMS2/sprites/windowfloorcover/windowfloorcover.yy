@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "windowfloorcover",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,22 +17,23 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Tiles",
+    "path": "texturegroups/Tiles",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bf0645fe-2bff-461a-bbe9-a9c9a795e46c","path":"sprites/windowfloorcover/windowfloorcover.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bf0645fe-2bff-461a-bbe9-a9c9a795e46c","path":"sprites/windowfloorcover/windowfloorcover.yy",},"LayerId":{"name":"b18d544c-3160-4482-b477-fe0b4172b46c","path":"sprites/windowfloorcover/windowfloorcover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"windowfloorcover","path":"sprites/windowfloorcover/windowfloorcover.yy",},"resourceVersion":"1.0","name":"bf0645fe-2bff-461a-bbe9-a9c9a795e46c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aedf1a22-bd93-483c-ac3f-516c834be598",},
   ],
   "sequence": {
-    "spriteId": {"name":"windowfloorcover","path":"sprites/windowfloorcover/windowfloorcover.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "windowfloorcover",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c143fcde-06d6-48a9-85bb-cc06ac98720c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf0645fe-2bff-461a-bbe9-a9c9a795e46c","path":"sprites/windowfloorcover/windowfloorcover.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"42553b5a-6f4d-4240-9863-35aefcd786ea","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aedf1a22-bd93-483c-ac3f-516c834be598","path":"sprites/windowfloorcover/windowfloorcover.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"windowfloorcover","path":"sprites/windowfloorcover/windowfloorcover.yy",},
-    "resourceVersion": "1.4",
-    "name": "windowfloorcover",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b18d544c-3160-4482-b477-fe0b4172b46c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8ae67bf5-c8f8-4cca-8033-255f0a1f0140","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprite Sheets",
     "path": "folders/Tile Sets/Sprite Sheets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "windowfloorcover",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

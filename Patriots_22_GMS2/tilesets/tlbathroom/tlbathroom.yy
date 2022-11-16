@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tlBathroom",
   "spriteId": {
     "name": "bathroom",
     "path": "sprites/bathroom/bathroom.yy",
@@ -11,8 +14,8 @@
   "tilevsep": 0,
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Tiles",
+    "path": "texturegroups/Tiles",
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
@@ -50,8 +53,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tlBathroom",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tl_placeholder",
   "spriteId": {
     "name": "_placeholder_vanilla",
     "path": "sprites/_placeholder_vanilla/_placeholder_vanilla.yy",
@@ -11,8 +14,8 @@
   "tilevsep": 0,
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Tiles",
+    "path": "texturegroups/Tiles",
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
@@ -783,8 +786,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tl_placeholder",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

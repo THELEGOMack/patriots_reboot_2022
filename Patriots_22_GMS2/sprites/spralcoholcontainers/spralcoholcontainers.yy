@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprAlcoholContainers",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,40 +17,29 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 13,
   "height": 5,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Sam_Apartment",
+    "path": "texturegroups/Room_Sam_Apartment",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"511f5da3-c1db-4037-b1eb-0fef3df73b4c","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"511f5da3-c1db-4037-b1eb-0fef3df73b4c","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":{"name":"bdde0726-5c0b-4b1d-9201-8822b8818269","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAlcoholContainers","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"511f5da3-c1db-4037-b1eb-0fef3df73b4c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"aaebe618-3197-4504-aac2-742e90652d36","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"aaebe618-3197-4504-aac2-742e90652d36","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":{"name":"bdde0726-5c0b-4b1d-9201-8822b8818269","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAlcoholContainers","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"aaebe618-3197-4504-aac2-742e90652d36","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9b7f6597-630f-4be2-9927-4767850d7b10","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9b7f6597-630f-4be2-9927-4767850d7b10","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":{"name":"bdde0726-5c0b-4b1d-9201-8822b8818269","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAlcoholContainers","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"9b7f6597-630f-4be2-9927-4767850d7b10","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"16375ddd-cc9e-4ed7-b479-16cc63b41b16","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"16375ddd-cc9e-4ed7-b479-16cc63b41b16","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":{"name":"bdde0726-5c0b-4b1d-9201-8822b8818269","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAlcoholContainers","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"16375ddd-cc9e-4ed7-b479-16cc63b41b16","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8728f9b8-6e74-4752-a6c7-6204f32a6731","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8728f9b8-6e74-4752-a6c7-6204f32a6731","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":{"name":"bdde0726-5c0b-4b1d-9201-8822b8818269","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAlcoholContainers","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"8728f9b8-6e74-4752-a6c7-6204f32a6731","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9b403fc1-40ef-418b-969b-9bec20d69c69","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9b403fc1-40ef-418b-969b-9bec20d69c69","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":{"name":"bdde0726-5c0b-4b1d-9201-8822b8818269","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAlcoholContainers","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"9b403fc1-40ef-418b-969b-9bec20d69c69","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"965f9e79-1fbf-45fe-8e2a-769004372899","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"965f9e79-1fbf-45fe-8e2a-769004372899","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"LayerId":{"name":"bdde0726-5c0b-4b1d-9201-8822b8818269","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAlcoholContainers","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","name":"965f9e79-1fbf-45fe-8e2a-769004372899","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"511f5da3-c1db-4037-b1eb-0fef3df73b4c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aaebe618-3197-4504-aac2-742e90652d36",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b7f6597-630f-4be2-9927-4767850d7b10",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"16375ddd-cc9e-4ed7-b479-16cc63b41b16",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8728f9b8-6e74-4752-a6c7-6204f32a6731",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b403fc1-40ef-418b-969b-9bec20d69c69",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"965f9e79-1fbf-45fe-8e2a-769004372899",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprAlcoholContainers","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprAlcoholContainers",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -58,7 +50,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"9e8e0251-fec7-4ad1-b83a-75478f1e5cc7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"511f5da3-c1db-4037-b1eb-0fef3df73b4c","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"101368e1-57b9-4e92-9eae-1b68a1a0cf5d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aaebe618-3197-4504-aac2-742e90652d36","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"988832f9-abbc-4f71-a871-2cdbdf4d9eef","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b7f6597-630f-4be2-9927-4767850d7b10","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -66,7 +58,7 @@
             {"id":"e6abcffa-d47a-41e0-b369-ddb2dd92f6f0","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8728f9b8-6e74-4752-a6c7-6204f32a6731","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a820f6a9-b62d-4068-aac5-29b3b949f0bd","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b403fc1-40ef-418b-969b-9bec20d69c69","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"40ac3eaa-6f28-43cb-8342-8e5b90935c37","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"965f9e79-1fbf-45fe-8e2a-769004372899","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -82,22 +74,13 @@
     "yorigin": 2,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprAlcoholContainers","path":"sprites/sprAlcoholContainers/sprAlcoholContainers.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprAlcoholContainers",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bdde0726-5c0b-4b1d-9201-8822b8818269","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bdde0726-5c0b-4b1d-9201-8822b8818269","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sam Apartment",
     "path": "folders/Sprites/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprAlcoholContainers",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprSamCoffeeMaker",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -14,25 +17,24 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 61,
   "height": 23,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Sam_Apartment",
+    "path": "texturegroups/Room_Sam_Apartment",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3a47a1ae-6d8c-489a-beaf-71587b66b1e1","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3a47a1ae-6d8c-489a-beaf-71587b66b1e1","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},"LayerId":{"name":"1bb228b9-911a-432a-89b5-b022c0acb9f9","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamCoffeeMaker","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},"resourceVersion":"1.0","name":"3a47a1ae-6d8c-489a-beaf-71587b66b1e1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cc6d16a1-8775-4341-a3b2-f81d5165506e","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cc6d16a1-8775-4341-a3b2-f81d5165506e","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},"LayerId":{"name":"1bb228b9-911a-432a-89b5-b022c0acb9f9","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamCoffeeMaker","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},"resourceVersion":"1.0","name":"cc6d16a1-8775-4341-a3b2-f81d5165506e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a47a1ae-6d8c-489a-beaf-71587b66b1e1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cc6d16a1-8775-4341-a3b2-f81d5165506e",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprSamCoffeeMaker","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprSamCoffeeMaker",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"c97ef3d1-a60d-4233-9ea0-e7c2fc80d9ad","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a47a1ae-6d8c-489a-beaf-71587b66b1e1","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"51aa290a-f8d2-41ea-996b-c66a3d1d1ee8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc6d16a1-8775-4341-a3b2-f81d5165506e","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 11,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprSamCoffeeMaker","path":"sprites/sprSamCoffeeMaker/sprSamCoffeeMaker.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprSamCoffeeMaker",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1bb228b9-911a-432a-89b5-b022c0acb9f9","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1bb228b9-911a-432a-89b5-b022c0acb9f9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sam Apartment",
     "path": "folders/Sprites/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprSamCoffeeMaker",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

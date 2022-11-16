@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprMafiaIdlePeeStop",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,37 +17,28 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 20,
   "height": 19,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Enemy_Mafia",
+    "path": "texturegroups/Enemy_Mafia",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"398cfb48-1b3a-49fb-b059-9918a4a6b811","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"398cfb48-1b3a-49fb-b059-9918a4a6b811","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":{"name":"6e99045c-e328-4f74-9a94-f609cac1f4c1","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaIdlePeeStop","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"398cfb48-1b3a-49fb-b059-9918a4a6b811","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4523769d-de3f-4d76-8ee7-263420689bf6","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4523769d-de3f-4d76-8ee7-263420689bf6","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":{"name":"6e99045c-e328-4f74-9a94-f609cac1f4c1","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaIdlePeeStop","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"4523769d-de3f-4d76-8ee7-263420689bf6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"977e82ed-43a3-4680-8ee3-c9571e2881f4","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"977e82ed-43a3-4680-8ee3-c9571e2881f4","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":{"name":"6e99045c-e328-4f74-9a94-f609cac1f4c1","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaIdlePeeStop","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"977e82ed-43a3-4680-8ee3-c9571e2881f4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"646570c7-5538-4f97-87b8-b7b6cdbc0b16","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"646570c7-5538-4f97-87b8-b7b6cdbc0b16","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":{"name":"6e99045c-e328-4f74-9a94-f609cac1f4c1","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaIdlePeeStop","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"646570c7-5538-4f97-87b8-b7b6cdbc0b16","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"702e82b4-5fb6-41b2-8b9d-87ab61871220","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"702e82b4-5fb6-41b2-8b9d-87ab61871220","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":{"name":"6e99045c-e328-4f74-9a94-f609cac1f4c1","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaIdlePeeStop","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"702e82b4-5fb6-41b2-8b9d-87ab61871220","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ec231bf7-b7b7-45f0-b81c-dd181ca4e004","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ec231bf7-b7b7-45f0-b81c-dd181ca4e004","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"LayerId":{"name":"6e99045c-e328-4f74-9a94-f609cac1f4c1","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaIdlePeeStop","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","name":"ec231bf7-b7b7-45f0-b81c-dd181ca4e004","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"398cfb48-1b3a-49fb-b059-9918a4a6b811",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4523769d-de3f-4d76-8ee7-263420689bf6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"977e82ed-43a3-4680-8ee3-c9571e2881f4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"646570c7-5538-4f97-87b8-b7b6cdbc0b16",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"702e82b4-5fb6-41b2-8b9d-87ab61871220",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ec231bf7-b7b7-45f0-b81c-dd181ca4e004",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprMafiaIdlePeeStop","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprMafiaIdlePeeStop",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0fc18370-8ee9-4ffc-938e-d3a721005d49","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"398cfb48-1b3a-49fb-b059-9918a4a6b811","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e5e51b8c-2e92-42b2-8010-09bd712d86f1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4523769d-de3f-4d76-8ee7-263420689bf6","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0b53b201-9aa0-4e90-9f03-317794c96bbc","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"977e82ed-43a3-4680-8ee3-c9571e2881f4","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9253f982-b588-4098-906d-472e3aff6b64","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"646570c7-5538-4f97-87b8-b7b6cdbc0b16","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0fed1d3c-2e92-42f4-b57a-dba195f75ddd","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"702e82b4-5fb6-41b2-8b9d-87ab61871220","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b43aae82-24dd-4144-a790-469acdc2fee7","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ec231bf7-b7b7-45f0-b81c-dd181ca4e004","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 9,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprMafiaIdlePeeStop","path":"sprites/sprMafiaIdlePeeStop/sprMafiaIdlePeeStop.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprMafiaIdlePeeStop",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6e99045c-e328-4f74-9a94-f609cac1f4c1","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6e99045c-e328-4f74-9a94-f609cac1f4c1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Idle",
     "path": "folders/Sprites/Enemy/Mafia/Idle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprMafiaIdlePeeStop",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

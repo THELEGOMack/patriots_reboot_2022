@@ -1,0 +1,5 @@
+function PMelee(){
+scrWeaponThrow();
+scrWeaponPickup();
+
+}

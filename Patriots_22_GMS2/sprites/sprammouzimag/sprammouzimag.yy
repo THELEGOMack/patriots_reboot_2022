@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprAmmoUziMag",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 15,
   "height": 74,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"907a606b-09be-4696-a3af-85f237c3ac11","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"907a606b-09be-4696-a3af-85f237c3ac11","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"LayerId":{"name":"3a7a2b01-e3e7-4213-bb3d-118f60f516a1","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAmmoUziMag","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"resourceVersion":"1.0","name":"907a606b-09be-4696-a3af-85f237c3ac11","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ccd13717-bac7-4436-ab74-0f60f3566bf2","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ccd13717-bac7-4436-ab74-0f60f3566bf2","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"LayerId":{"name":"3a7a2b01-e3e7-4213-bb3d-118f60f516a1","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAmmoUziMag","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"resourceVersion":"1.0","name":"ccd13717-bac7-4436-ab74-0f60f3566bf2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"907a606b-09be-4696-a3af-85f237c3ac11",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ccd13717-bac7-4436-ab74-0f60f3566bf2",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprAmmoUziMag","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprAmmoUziMag",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -40,13 +42,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1c0b8f19-ec2e-45ef-8a28-cddbec6860ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"907a606b-09be-4696-a3af-85f237c3ac11","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"6b439980-c96b-40b8-a1a1-65577cbc1aa8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ccd13717-bac7-4436-ab74-0f60f3566bf2","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"1c0b8f19-ec2e-45ef-8a28-cddbec6860ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"907a606b-09be-4696-a3af-85f237c3ac11","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6b439980-c96b-40b8-a1a1-65577cbc1aa8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ccd13717-bac7-4436-ab74-0f60f3566bf2","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 74,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprAmmoUziMag","path":"sprites/sprAmmoUziMag/sprAmmoUziMag.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprAmmoUziMag",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3a7a2b01-e3e7-4213-bb3d-118f60f516a1","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3a7a2b01-e3e7-4213-bb3d-118f60f516a1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ammo Counter",
     "path": "folders/Sprites/UI/Ammo Counter.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprAmmoUziMag",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

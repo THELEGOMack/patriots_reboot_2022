@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprMafiaIdlePhonePistol",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,25 +17,24 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Enemy_Mafia",
+    "path": "texturegroups/Enemy_Mafia",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9baee10a-1a51-4465-b8dc-e7f5558c129c","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9baee10a-1a51-4465-b8dc-e7f5558c129c","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},"LayerId":{"name":"1a9f7ba1-0d59-43d1-9ee7-6a13fb9b8312","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaIdlePhonePistol","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},"resourceVersion":"1.0","name":"9baee10a-1a51-4465-b8dc-e7f5558c129c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a4683e63-fbe7-4394-8c0f-7bdb01057683","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a4683e63-fbe7-4394-8c0f-7bdb01057683","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},"LayerId":{"name":"1a9f7ba1-0d59-43d1-9ee7-6a13fb9b8312","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaIdlePhonePistol","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},"resourceVersion":"1.0","name":"a4683e63-fbe7-4394-8c0f-7bdb01057683","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9baee10a-1a51-4465-b8dc-e7f5558c129c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a4683e63-fbe7-4394-8c0f-7bdb01057683",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprMafiaIdlePhonePistol","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprMafiaIdlePhonePistol",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d98b7e78-8da5-4bff-bc0d-6c7148bea16f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9baee10a-1a51-4465-b8dc-e7f5558c129c","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8d90dfc0-3988-4a16-a6c5-ec8eef868344","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a4683e63-fbe7-4394-8c0f-7bdb01057683","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprMafiaIdlePhonePistol","path":"sprites/sprMafiaIdlePhonePistol/sprMafiaIdlePhonePistol.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprMafiaIdlePhonePistol",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1a9f7ba1-0d59-43d1-9ee7-6a13fb9b8312","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1a9f7ba1-0d59-43d1-9ee7-6a13fb9b8312","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Idle",
     "path": "folders/Sprites/Enemy/Mafia/Idle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprMafiaIdlePhonePistol",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

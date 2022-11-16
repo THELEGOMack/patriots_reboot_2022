@@ -1,0 +1,2 @@
+/// @description Shell "wait"
+scrPlayerAnimEnd();

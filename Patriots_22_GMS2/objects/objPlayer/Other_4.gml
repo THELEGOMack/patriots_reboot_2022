@@ -1,0 +1,2 @@
+/// @description Room initialization
+scrRoomInit();

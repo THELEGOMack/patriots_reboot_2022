@@ -1,5 +1,17 @@
-scrWeaponThrow();
-scrWeaponPickup();
+if (hp <= 0) {state = 5;}
+
+//key bindings
+keyLeft = keyboard_check(ord("A"));
+keyRight = keyboard_check(ord("D"));
+keyUp = keyboard_check(ord("W"));
+keyDown = keyboard_check(ord("S"));
+
+//floor completion check
+//BROKEN? Stuck at 0
+if ((instance_number(objEnemyMafia) + instance_number(objEBullet)) <= 0) and (global.playerDead = false)
+{
+	global.floorClear = 1;
+} else global.floorClear = 0;
 
 //collision
 function move(move_x,move_y){
@@ -27,70 +39,40 @@ function move(move_x,move_y){
 }
 
 var dist=point_distance(0,0,axis.x,axis.y)
- if axis.x!=0{
-            axis.x/=dist
-        }
-        if axis.y!=0{
-            axis.y/=dist
-        }
-
-        if axis.x!=0 or axis.y!=0{
-            move_axis=point_direction(0,0,axis_interp.x,axis_interp.y)
-        }
-        
-        axis_interp.x=approach(axis_interp.x,axis.x,0.125*delta*60)
-        axis_interp.y=approach(axis_interp.y,axis.y,0.125*delta*60)
-        
-        if axis.x!=0 or axis.y!=0{
-            spd_interp=lerp(spd_interp,point_distance(0,0,axis_interp.x,axis_interp.y)*spd,0.35*delta*60)
-        }else{
-            spd_interp=approach(spd_interp,0,0.35*delta*60)
-        }
-        
-        motion.x=lengthdir_x(spd_interp,move_axis)*delta*60
-        motion.y=lengthdir_y(spd_interp,move_axis)*delta*60
+if axis.x!=0{axis.x/=dist}
+if axis.y!=0{axis.y/=dist}
+if axis.x!=0 or axis.y!=0{move_axis=point_direction(0,0,axis_interp.x,axis_interp.y)}
+axis_interp.x=approach(axis_interp.x,axis.x,0.125*delta*60)
+axis_interp.y=approach(axis_interp.y,axis.y,0.125*delta*60)
+if axis.x!=0 or axis.y!=0{spd_interp=lerp(spd_interp,point_distance(0,0,axis_interp.x,axis_interp.y)*spd,0.35*delta*60)}
+else{spd_interp=approach(spd_interp,0,0.35*delta*60)}
+motion.x=lengthdir_x(spd_interp,move_axis)*delta*60
+motion.y=lengthdir_y(spd_interp,move_axis)*delta*60
 
 function input(){
-    axis.y=keyboard_check(ord("S"))-keyboard_check(ord("W"))
-    axis.x=keyboard_check(ord("D"))-keyboard_check(ord("A"))
-    
-}
-
+    axis.y=keyDown-keyUp
+    axis.x=keyRight-keyLeft}
 input();
-        
-      
 
-if canLook = true
-{
-	lookDir = point_direction(x, y, objCursor.x, objCursor.y);
-}
+if canLook = true{lookDir = point_direction(x, y, objCursor.x, objCursor.y);}
 else lookDir = image_angle;
 
-if (keyboard_check_pressed(ord("R")))
-    {
-    game_restart();
-    }
+if (keyboard_check_pressed(vk_escape)){game_restart();}
+if (keyboard_check_pressed(ord("K"))){hp = 0} //suicide key for testing purposes
 	
 //movement
-keyLeft = keyboard_check(ord("A"));
-keyRight = keyboard_check(ord("D"));
-keyUp = keyboard_check(ord("W"));
-keyDown = keyboard_check(ord("S"));
 var moveX = (keyRight - keyLeft) * walkSpeed;
 var moveY = (keyDown - keyUp) * walkSpeed;
-
-if canMove = true
+if canMove != false
 	{
-	hspd = approach(hspd, moveX, accel);
-	vspd = approach(vspd, moveY, accel);
-	move(x+motion.x,y+motion.y)
+	move(x+motion.x,y+motion.y);
 	x = min(x,room_width-8);
 	x = max(x, 8);
 	y = min(y,room_height-8);
 	y = max(y, 8);
 	}
 
-//leg directions
+#region leg directions
 var angleSwitchSpeed = 10
 if keyLeft {legAngle = approach(legAngle, 180, angleSwitchSpeed)}
 if keyRight {legAngle = approach(legAngle, 0, angleSwitchSpeed)}
@@ -102,54 +84,48 @@ if keyRight and keyDown {legAngle = approach(legAngle, 315, angleSwitchSpeed)}
 if keyRight and keyUp {legAngle = approach(legAngle, 45, angleSwitchSpeed)}
 if keyUp and keyDown {legIndex = 0}
 if keyLeft and keyRight {legIndex = 0}
+#endregion
 
-//player animation & leg drawing
+#region player animation & leg drawing
 if (moveX != 0) or (moveY != 0) and (canMove = true)
 	{
 	if (image_speed > 0.1)
-		{
-		legIndex += 0.3;
-		}
+		{legIndex += 0.3;}
 	if attacking = 0
-		{
-		image_speed = accel*3;
-		}
+		{image_speed = accel*3;}
 		else if attacking = 1 {image_speed = shootAnimSpeed}
 	}
 	else
 	{
 		legIndex = 0;
 		if attacking = 0
-			{
-			image_speed = 0;
-			}
+			{image_speed = 0;}
 			else if attacking = 1 {image_speed = shootAnimSpeed}
 	}
+#endregion
 
-//current weapon
-if canShoot = true
-	{
-	shellDir = direction;
-	shootTimer--;
-		if shootTimer < -200
-			{
-			shootTimer = -1
-			}
-	if (mouse_check_button(mb_left) and (ammoPlayer > 0))
-	    {
-		weaponValues();
-	    if (shootTimer <= 0)
-	        {
-	        Shoot();
-	        }
-	    }
-	}
-else if canShoot = false
-	{
-	shootTimer = 1;
-	}
-	
-if hp <= 0
+switch(state)
 {
-	statePDead();
+	case 0: PUnarmed(); break; //unarmed
+	case 1: PFirearm(); break; //guns
+	case 2: PMelee(); break; //melee
+	case 3: break; //execution
+	case 4:	break; //cutscene (can't attack) [REMOVE THIS]
+	case 5: PDead(); break; //dead
+	//etc.
+	default: break;
+}
+
+//state machine (state dictated by sprite index)
+switch (sprite_index)
+{
+	case sprPlayerWalkUnarmed: state = 0; break;
+	//guns
+	case sprPlayerWalkSilencer:
+	case sprPlayerWalkShotgun:
+	case sprPlayerWalkM16:
+	case sprPlayerWalkAK47:
+	case sprPlayerWalkMagnum: state = 1; break;
+	//melee
+	case sprPlayerWalkClub: state = 2; break;
 }

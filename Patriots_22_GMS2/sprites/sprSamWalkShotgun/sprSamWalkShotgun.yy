@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprSamWalkShotgun",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,43 +17,30 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 50,
   "height": 25,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Player_Samuel",
+    "path": "texturegroups/Player_Samuel",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1632d8f9-4f79-4abd-86c1-04b5267171eb","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1632d8f9-4f79-4abd-86c1-04b5267171eb","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":{"name":"53c3f574-c981-41e4-9366-ea005e55017a","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamWalkShotgun","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"1632d8f9-4f79-4abd-86c1-04b5267171eb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"43822628-35f9-4e3e-b075-7e13c121e2a5","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"43822628-35f9-4e3e-b075-7e13c121e2a5","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":{"name":"53c3f574-c981-41e4-9366-ea005e55017a","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamWalkShotgun","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"43822628-35f9-4e3e-b075-7e13c121e2a5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"068ac949-1630-4380-9f6b-6d6c695344ef","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"068ac949-1630-4380-9f6b-6d6c695344ef","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":{"name":"53c3f574-c981-41e4-9366-ea005e55017a","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamWalkShotgun","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"068ac949-1630-4380-9f6b-6d6c695344ef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e635df2f-78a6-480f-b585-ece44fc53a96","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e635df2f-78a6-480f-b585-ece44fc53a96","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":{"name":"53c3f574-c981-41e4-9366-ea005e55017a","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamWalkShotgun","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"e635df2f-78a6-480f-b585-ece44fc53a96","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1c450b22-b0bb-4490-8d46-8c23e1084985","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1c450b22-b0bb-4490-8d46-8c23e1084985","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":{"name":"53c3f574-c981-41e4-9366-ea005e55017a","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamWalkShotgun","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"1c450b22-b0bb-4490-8d46-8c23e1084985","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0d60ef61-d2c7-48d5-97ab-29c02d7300c3","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0d60ef61-d2c7-48d5-97ab-29c02d7300c3","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":{"name":"53c3f574-c981-41e4-9366-ea005e55017a","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamWalkShotgun","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"0d60ef61-d2c7-48d5-97ab-29c02d7300c3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"52d9c1fb-e41d-42dd-ad85-624e99b0b50e","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"52d9c1fb-e41d-42dd-ad85-624e99b0b50e","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":{"name":"53c3f574-c981-41e4-9366-ea005e55017a","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamWalkShotgun","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"52d9c1fb-e41d-42dd-ad85-624e99b0b50e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5e620afb-2b4b-4c2a-8a09-d4aa5622da75","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5e620afb-2b4b-4c2a-8a09-d4aa5622da75","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"LayerId":{"name":"53c3f574-c981-41e4-9366-ea005e55017a","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamWalkShotgun","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","name":"5e620afb-2b4b-4c2a-8a09-d4aa5622da75","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1632d8f9-4f79-4abd-86c1-04b5267171eb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"43822628-35f9-4e3e-b075-7e13c121e2a5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"068ac949-1630-4380-9f6b-6d6c695344ef",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e635df2f-78a6-480f-b585-ece44fc53a96",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1c450b22-b0bb-4490-8d46-8c23e1084985",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0d60ef61-d2c7-48d5-97ab-29c02d7300c3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"52d9c1fb-e41d-42dd-ad85-624e99b0b50e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5e620afb-2b4b-4c2a-8a09-d4aa5622da75",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprSamWalkShotgun","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprSamWalkShotgun",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -61,7 +51,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"eec4fd27-861c-4ece-9193-cda7d43afd3e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1632d8f9-4f79-4abd-86c1-04b5267171eb","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a0514409-0ab9-4711-9524-ee13d13bcf3e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"43822628-35f9-4e3e-b075-7e13c121e2a5","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f173c5de-20cb-4a40-8d8e-096945ce0c68","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"068ac949-1630-4380-9f6b-6d6c695344ef","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -70,7 +60,7 @@
             {"id":"fc0e3a04-a112-4b8e-9c73-57ca99339c14","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0d60ef61-d2c7-48d5-97ab-29c02d7300c3","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7c8cdf1f-2775-4187-89c2-c38bed7bdbf4","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"52d9c1fb-e41d-42dd-ad85-624e99b0b50e","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0a99be6f-e781-4362-b05c-94a03387768d","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5e620afb-2b4b-4c2a-8a09-d4aa5622da75","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -86,22 +76,13 @@
     "yorigin": 13,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprSamWalkShotgun","path":"sprites/sprSamWalkShotgun/sprSamWalkShotgun.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprSamWalkShotgun",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"53c3f574-c981-41e4-9366-ea005e55017a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"53c3f574-c981-41e4-9366-ea005e55017a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Samuel",
     "path": "folders/Sprites/Player/Samuel.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprSamWalkShotgun",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

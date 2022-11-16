@@ -1,40 +1,42 @@
-/// @desc Destroy the light
-/// @arg light The light to destroy
+/// @description light_destroy(lighting_system)
+/// @param lighting_system The ds_list representing the lighting system to destroy.
 function light_destroy(argument0) {
+	/*
+	Destroys all memory associated with a lighting system including the light map, lights, and casters.
+	*/
 
-	var light = argument0;
+	var lighting_system, light_surface, light_map, lights, casters;
 
-	// Destroy the vertex buffer
-	var buffer = light[| eLight.VertexBuffer];
-	if(buffer != undefined) vertex_delete_buffer(buffer);
+	lighting_system = argument0;
 
-	// Destroy the shadow map
-	var shadowMap = light[| eLight.ShadowMap];
-	if(shadowMap != undefined && surface_exists(shadowMap)) surface_free(shadowMap);
+	light_surface = ds_list_find_value(lighting_system, 7);
+	light_map = ds_list_find_value(lighting_system, 8);
+	lights = ds_list_find_value(lighting_system, 9);
+	casters = ds_list_find_value(lighting_system, 10);
 
-	// Destroy static storage
-	var static_storage = light[| eLight.StaticStorage];
-	if(static_storage != undefined) ds_map_destroy(static_storage);
+	surface_free(light_surface);
+	surface_free(light_map);
 
-	// Destroy out of range shadow casters map
-	var out_of_range_list = light[| eLight.ShadowCastersOutOfRange];
-	if(out_of_range_list != undefined) ds_map_destroy(out_of_range_list);
-	if(static_storage != undefined) ds_map_destroy(static_storage);
+	for (var i = 0; i < ds_list_size(lights); i++)
+	{
+	    if (ds_exists(i, ds_type_list))
+	    {
+	        light_delete(i);
+	    }
+	}
+	ds_list_destroy(lights);
 
-	// Destroy culled shadow casters map
-	var culled_shadow_casters = light[| eLight.CulledShadowCasters];
-	if(culled_shadow_casters != undefined) ds_map_destroy(culled_shadow_casters);
+	for (var i = 0; i < ds_list_size(casters); i++)
+	{
+	    if (ds_exists(i, ds_type_list))
+	    {
+	        light_caster_delete(i);
+	    }
+	}
+	ds_list_destroy(casters);
 
-	// Destroy extension modules list
-	var ext_modules = light[| eLight.ExtensionModules];
-	if(ext_modules != undefined) ds_list_destroy(ext_modules);
+	ds_list_destroy(lighting_system);
 
-	// Destroy ignore set
-	var map = light[| eLight.IgnoreSet];
-	if(map != undefined) ds_map_destroy(map);
-
-	// Destroy the light
-	ds_list_destroy(light);
 
 
 }

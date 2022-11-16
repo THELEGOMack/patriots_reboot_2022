@@ -1,5 +1,2 @@
 hp--;
-if hp <= 1
-{
-	direction = other.direction;
-}
+if (hp <= 1) {direction = other.direction;}

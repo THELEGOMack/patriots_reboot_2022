@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprSamVendingMachine",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -14,25 +17,24 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Sam_Apartment",
+    "path": "texturegroups/Room_Sam_Apartment",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d293a241-f70b-4c7c-9d12-258ca17023e1","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d293a241-f70b-4c7c-9d12-258ca17023e1","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},"LayerId":{"name":"13771481-eac3-45e3-8f46-20bd521354d2","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamVendingMachine","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},"resourceVersion":"1.0","name":"d293a241-f70b-4c7c-9d12-258ca17023e1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"514a02bd-0ff7-47b4-9617-24f7466aa8d8","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"514a02bd-0ff7-47b4-9617-24f7466aa8d8","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},"LayerId":{"name":"13771481-eac3-45e3-8f46-20bd521354d2","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamVendingMachine","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},"resourceVersion":"1.0","name":"514a02bd-0ff7-47b4-9617-24f7466aa8d8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d293a241-f70b-4c7c-9d12-258ca17023e1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"514a02bd-0ff7-47b4-9617-24f7466aa8d8",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprSamVendingMachine","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprSamVendingMachine",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4440c2c1-4179-46a1-a976-c7a03a449679","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d293a241-f70b-4c7c-9d12-258ca17023e1","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"dd8df8d1-8f56-4f36-a990-efc29a7a2956","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"514a02bd-0ff7-47b4-9617-24f7466aa8d8","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 13,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprSamVendingMachine","path":"sprites/sprSamVendingMachine/sprSamVendingMachine.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprSamVendingMachine",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"13771481-eac3-45e3-8f46-20bd521354d2","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"13771481-eac3-45e3-8f46-20bd521354d2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sam Apartment",
     "path": "folders/Sprites/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprSamVendingMachine",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

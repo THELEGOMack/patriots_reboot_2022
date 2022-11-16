@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprWolfMaskBox",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,28 +17,25 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 22,
   "height": 26,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Sam_Apartment",
+    "path": "texturegroups/Room_Sam_Apartment",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b5adfb19-09a5-45ae-b172-ea5b0885fcbd","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b5adfb19-09a5-45ae-b172-ea5b0885fcbd","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"LayerId":{"name":"6f4fb19b-87c1-4d6a-8db6-1eb5a684e4f0","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprWolfMaskBox","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"resourceVersion":"1.0","name":"b5adfb19-09a5-45ae-b172-ea5b0885fcbd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0f180eb6-0749-4583-95d8-1be16464b26c","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f180eb6-0749-4583-95d8-1be16464b26c","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"LayerId":{"name":"6f4fb19b-87c1-4d6a-8db6-1eb5a684e4f0","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprWolfMaskBox","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"resourceVersion":"1.0","name":"0f180eb6-0749-4583-95d8-1be16464b26c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6a962109-acc6-4e52-ac91-dd0386d39b03","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6a962109-acc6-4e52-ac91-dd0386d39b03","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"LayerId":{"name":"6f4fb19b-87c1-4d6a-8db6-1eb5a684e4f0","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprWolfMaskBox","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"resourceVersion":"1.0","name":"6a962109-acc6-4e52-ac91-dd0386d39b03","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b5adfb19-09a5-45ae-b172-ea5b0885fcbd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f180eb6-0749-4583-95d8-1be16464b26c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a962109-acc6-4e52-ac91-dd0386d39b03",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprWolfMaskBox","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprWolfMaskBox",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 2.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"52658f98-852c-497e-98dd-a554ec94fa20","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b5adfb19-09a5-45ae-b172-ea5b0885fcbd","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0c718fd4-1023-4836-98ee-8ce787e852b9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f180eb6-0749-4583-95d8-1be16464b26c","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"278312d9-dc03-4e37-a498-d3a1c01efca0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a962109-acc6-4e52-ac91-dd0386d39b03","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +66,13 @@
     "yorigin": 13,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprWolfMaskBox","path":"sprites/sprWolfMaskBox/sprWolfMaskBox.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprWolfMaskBox",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6f4fb19b-87c1-4d6a-8db6-1eb5a684e4f0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6f4fb19b-87c1-4d6a-8db6-1eb5a684e4f0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sam Apartment",
     "path": "folders/Sprites/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprWolfMaskBox",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

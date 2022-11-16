@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprMafiaLegs",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,67 +17,38 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Enemy_Mafia",
+    "path": "texturegroups/Enemy_Mafia",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7beccf11-7af0-4ff6-8603-0a11919e825d","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7beccf11-7af0-4ff6-8603-0a11919e825d","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"7beccf11-7af0-4ff6-8603-0a11919e825d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"96bac899-f631-4106-b22a-67a3ceb5dea2","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"96bac899-f631-4106-b22a-67a3ceb5dea2","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"96bac899-f631-4106-b22a-67a3ceb5dea2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8961fdf2-3290-4856-8262-1fe8a2fb8154","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8961fdf2-3290-4856-8262-1fe8a2fb8154","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"8961fdf2-3290-4856-8262-1fe8a2fb8154","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9a51c287-8889-455e-a3b1-dbe670bfa060","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9a51c287-8889-455e-a3b1-dbe670bfa060","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"9a51c287-8889-455e-a3b1-dbe670bfa060","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5aa3f1ff-052d-4d8b-adb2-0901d4aa669f","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5aa3f1ff-052d-4d8b-adb2-0901d4aa669f","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"5aa3f1ff-052d-4d8b-adb2-0901d4aa669f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6da81e2d-cd38-4cf2-b878-72641b4d4b8d","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6da81e2d-cd38-4cf2-b878-72641b4d4b8d","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"6da81e2d-cd38-4cf2-b878-72641b4d4b8d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c873b2ef-cc61-45fe-b063-7f51b9c9c7ba","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c873b2ef-cc61-45fe-b063-7f51b9c9c7ba","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"c873b2ef-cc61-45fe-b063-7f51b9c9c7ba","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ba4d0218-37f2-424a-9a32-e879b5d3433a","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ba4d0218-37f2-424a-9a32-e879b5d3433a","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"ba4d0218-37f2-424a-9a32-e879b5d3433a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4b525bf0-7963-478d-97ae-2619b2dee1ad","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4b525bf0-7963-478d-97ae-2619b2dee1ad","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"4b525bf0-7963-478d-97ae-2619b2dee1ad","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4df5d19d-acdf-44f9-a843-6708d5a1c15e","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4df5d19d-acdf-44f9-a843-6708d5a1c15e","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"4df5d19d-acdf-44f9-a843-6708d5a1c15e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bd3d8dcf-8551-4f17-98fe-840d45850591","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bd3d8dcf-8551-4f17-98fe-840d45850591","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"bd3d8dcf-8551-4f17-98fe-840d45850591","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4da84fb4-899e-47e1-b106-d0ac84dc133a","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4da84fb4-899e-47e1-b106-d0ac84dc133a","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"4da84fb4-899e-47e1-b106-d0ac84dc133a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"71e62f50-ad5f-4587-ba71-d9408118cd23","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"71e62f50-ad5f-4587-ba71-d9408118cd23","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"71e62f50-ad5f-4587-ba71-d9408118cd23","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"904d1041-4317-4b8c-b646-9064c149b002","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"904d1041-4317-4b8c-b646-9064c149b002","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"904d1041-4317-4b8c-b646-9064c149b002","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0f14c0c1-a46c-4fc8-9185-161b568feb07","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f14c0c1-a46c-4fc8-9185-161b568feb07","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"0f14c0c1-a46c-4fc8-9185-161b568feb07","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5836a3a7-1cdc-4709-889b-ec35f020f98f","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5836a3a7-1cdc-4709-889b-ec35f020f98f","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"LayerId":{"name":"084c0bf5-8bcb-4637-8a16-f75784386910","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","name":"5836a3a7-1cdc-4709-889b-ec35f020f98f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7beccf11-7af0-4ff6-8603-0a11919e825d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"96bac899-f631-4106-b22a-67a3ceb5dea2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8961fdf2-3290-4856-8262-1fe8a2fb8154",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9a51c287-8889-455e-a3b1-dbe670bfa060",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5aa3f1ff-052d-4d8b-adb2-0901d4aa669f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6da81e2d-cd38-4cf2-b878-72641b4d4b8d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c873b2ef-cc61-45fe-b063-7f51b9c9c7ba",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba4d0218-37f2-424a-9a32-e879b5d3433a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4b525bf0-7963-478d-97ae-2619b2dee1ad",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4df5d19d-acdf-44f9-a843-6708d5a1c15e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bd3d8dcf-8551-4f17-98fe-840d45850591",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4da84fb4-899e-47e1-b106-d0ac84dc133a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71e62f50-ad5f-4587-ba71-d9408118cd23",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"904d1041-4317-4b8c-b646-9064c149b002",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f14c0c1-a46c-4fc8-9185-161b568feb07",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5836a3a7-1cdc-4709-889b-ec35f020f98f",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprMafiaLegs",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -85,7 +59,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"40dd5080-1eeb-4f05-91a4-9a7e493f1f0f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7beccf11-7af0-4ff6-8603-0a11919e825d","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b2d7bcc2-028b-4d0d-bb08-586120105521","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"96bac899-f631-4106-b22a-67a3ceb5dea2","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4aba6c91-5226-4f65-b3a3-3504ad8eb5b0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8961fdf2-3290-4856-8262-1fe8a2fb8154","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -102,7 +76,7 @@
             {"id":"d7b2dfba-43a0-4207-9749-48389cf2d5ba","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"904d1041-4317-4b8c-b646-9064c149b002","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9ade7197-1d23-4717-bc5c-e8e814067909","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f14c0c1-a46c-4fc8-9185-161b568feb07","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6da0ac4f-b1da-4b07-b46b-ce9f51a5953b","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5836a3a7-1cdc-4709-889b-ec35f020f98f","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -118,22 +92,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprMafiaLegs","path":"sprites/sprMafiaLegs/sprMafiaLegs.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprMafiaLegs",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"084c0bf5-8bcb-4637-8a16-f75784386910","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"084c0bf5-8bcb-4637-8a16-f75784386910","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Mafia",
     "path": "folders/Sprites/Enemy/Mafia.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprMafiaLegs",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

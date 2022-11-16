@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprSamPhoneMessage",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,37 +17,28 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 18,
   "height": 36,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Sam_Apartment",
+    "path": "texturegroups/Room_Sam_Apartment",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"59c1e59d-af2b-45b7-b17c-da8acc4b4b94","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"59c1e59d-af2b-45b7-b17c-da8acc4b4b94","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":{"name":"4e6753f0-8872-4ae6-98dc-4eb8624832e7","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamPhoneMessage","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"59c1e59d-af2b-45b7-b17c-da8acc4b4b94","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d3776665-72d8-426f-b37b-058680ca014e","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d3776665-72d8-426f-b37b-058680ca014e","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":{"name":"4e6753f0-8872-4ae6-98dc-4eb8624832e7","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamPhoneMessage","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"d3776665-72d8-426f-b37b-058680ca014e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a22186c6-169e-4044-bab1-250c77ddc2fd","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a22186c6-169e-4044-bab1-250c77ddc2fd","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":{"name":"4e6753f0-8872-4ae6-98dc-4eb8624832e7","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamPhoneMessage","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"a22186c6-169e-4044-bab1-250c77ddc2fd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7651852c-29f2-43be-8d9e-e7ab39682cda","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7651852c-29f2-43be-8d9e-e7ab39682cda","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":{"name":"4e6753f0-8872-4ae6-98dc-4eb8624832e7","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamPhoneMessage","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"7651852c-29f2-43be-8d9e-e7ab39682cda","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7005bda0-a1ba-41ae-bf15-d9b8fc96f7f9","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7005bda0-a1ba-41ae-bf15-d9b8fc96f7f9","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":{"name":"4e6753f0-8872-4ae6-98dc-4eb8624832e7","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamPhoneMessage","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"7005bda0-a1ba-41ae-bf15-d9b8fc96f7f9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1a481b96-224a-4f4f-8b13-aa4d7d08010e","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1a481b96-224a-4f4f-8b13-aa4d7d08010e","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"LayerId":{"name":"4e6753f0-8872-4ae6-98dc-4eb8624832e7","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamPhoneMessage","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","name":"1a481b96-224a-4f4f-8b13-aa4d7d08010e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"59c1e59d-af2b-45b7-b17c-da8acc4b4b94",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3776665-72d8-426f-b37b-058680ca014e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a22186c6-169e-4044-bab1-250c77ddc2fd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7651852c-29f2-43be-8d9e-e7ab39682cda",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7005bda0-a1ba-41ae-bf15-d9b8fc96f7f9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1a481b96-224a-4f4f-8b13-aa4d7d08010e",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprSamPhoneMessage","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprSamPhoneMessage",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"3ce82d96-3aa2-4265-a5fc-4cd98b0138b0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59c1e59d-af2b-45b7-b17c-da8acc4b4b94","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"94acf149-0efb-4943-a203-5eaf7c5984fb","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3776665-72d8-426f-b37b-058680ca014e","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f88eaf01-1a45-4c65-a74a-99adf00d7072","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a22186c6-169e-4044-bab1-250c77ddc2fd","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"753e988c-72c8-46a8-8100-d218b70631db","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7651852c-29f2-43be-8d9e-e7ab39682cda","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9bfa435e-8a74-4908-a851-b9f0403d2821","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7005bda0-a1ba-41ae-bf15-d9b8fc96f7f9","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cc57bd12-db7f-40f1-938c-73da4512e1b8","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a481b96-224a-4f4f-8b13-aa4d7d08010e","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 18,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprSamPhoneMessage","path":"sprites/sprSamPhoneMessage/sprSamPhoneMessage.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprSamPhoneMessage",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4e6753f0-8872-4ae6-98dc-4eb8624832e7","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4e6753f0-8872-4ae6-98dc-4eb8624832e7","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sam Apartment",
     "path": "folders/Sprites/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprSamPhoneMessage",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

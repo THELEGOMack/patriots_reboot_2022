@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprSamAttackAK47",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,25 +17,24 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 50,
   "height": 25,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Player_Samuel",
+    "path": "texturegroups/Player_Samuel",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"921f70de-ea87-4ff9-bf39-42dba1b6eadf","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"921f70de-ea87-4ff9-bf39-42dba1b6eadf","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},"LayerId":{"name":"75092978-89ac-454c-a52b-93fc2fdef85c","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamAttackAK47","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},"resourceVersion":"1.0","name":"921f70de-ea87-4ff9-bf39-42dba1b6eadf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1b61fa18-d6d9-4b45-a471-8b78a2f32604","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1b61fa18-d6d9-4b45-a471-8b78a2f32604","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},"LayerId":{"name":"75092978-89ac-454c-a52b-93fc2fdef85c","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSamAttackAK47","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},"resourceVersion":"1.0","name":"1b61fa18-d6d9-4b45-a471-8b78a2f32604","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"921f70de-ea87-4ff9-bf39-42dba1b6eadf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b61fa18-d6d9-4b45-a471-8b78a2f32604",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprSamAttackAK47","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprSamAttackAK47",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"92d30f78-9ac0-4112-b57a-6b09d7a08376","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"921f70de-ea87-4ff9-bf39-42dba1b6eadf","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"95bfd8fe-af94-4fc1-b1fd-3847686711a1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1b61fa18-d6d9-4b45-a471-8b78a2f32604","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 13,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprSamAttackAK47","path":"sprites/sprSamAttackAK47/sprSamAttackAK47.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprSamAttackAK47",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"75092978-89ac-454c-a52b-93fc2fdef85c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"75092978-89ac-454c-a52b-93fc2fdef85c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Samuel",
     "path": "folders/Sprites/Player/Samuel.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprSamAttackAK47",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

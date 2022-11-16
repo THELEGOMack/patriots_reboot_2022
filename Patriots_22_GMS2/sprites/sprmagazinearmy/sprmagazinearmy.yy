@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprMagazineArmy",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,25 +17,24 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 21,
   "height": 13,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Sam_Apartment",
+    "path": "texturegroups/Room_Sam_Apartment",
   },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f64db8a6-0647-4de7-b530-eb49570da730","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f64db8a6-0647-4de7-b530-eb49570da730","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},"LayerId":{"name":"cc668abe-8c8d-43ab-ab9b-9b3183f2f3ae","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMagazineArmy","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},"resourceVersion":"1.0","name":"f64db8a6-0647-4de7-b530-eb49570da730","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b850fd0e-6dbb-4529-b6cb-f240ecf14c43","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b850fd0e-6dbb-4529-b6cb-f240ecf14c43","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},"LayerId":{"name":"cc668abe-8c8d-43ab-ab9b-9b3183f2f3ae","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMagazineArmy","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},"resourceVersion":"1.0","name":"b850fd0e-6dbb-4529-b6cb-f240ecf14c43","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f64db8a6-0647-4de7-b530-eb49570da730",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b850fd0e-6dbb-4529-b6cb-f240ecf14c43",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprMagazineArmy","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprMagazineArmy",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6a52417a-4f9c-4bf4-9d6e-532bff00bbe4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f64db8a6-0647-4de7-b530-eb49570da730","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e0cc57ac-c138-40eb-9d38-42fa72931880","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b850fd0e-6dbb-4529-b6cb-f240ecf14c43","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 6,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprMagazineArmy","path":"sprites/sprMagazineArmy/sprMagazineArmy.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprMagazineArmy",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cc668abe-8c8d-43ab-ab9b-9b3183f2f3ae","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cc668abe-8c8d-43ab-ab9b-9b3183f2f3ae","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sam Apartment",
     "path": "folders/Sprites/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprMagazineArmy",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
