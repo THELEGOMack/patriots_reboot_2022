@@ -21,8 +21,8 @@
   "width": 97,
   "height": 43,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Adrian_Penthouse",
+    "path": "texturegroups/Room_Adrian_Penthouse",
   },
   "swatchColours": null,
   "gridX": 0,

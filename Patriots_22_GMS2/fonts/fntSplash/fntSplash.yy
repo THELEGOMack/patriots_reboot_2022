@@ -20,8 +20,8 @@
   "includeTTF": false,
   "TTFName": "",
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "User_Interface_General",
+    "path": "texturegroups/User_Interface_General",
   },
   "ascenderOffset": 0,
   "ascender": 27,

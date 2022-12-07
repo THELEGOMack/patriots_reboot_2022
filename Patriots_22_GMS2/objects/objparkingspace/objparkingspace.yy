@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objParkingSpace",
   "spriteId": {
     "name": "sprParkingSpace",
     "path": "sprites/sprParkingSpace/sprParkingSpace.yy",
@@ -31,8 +34,4 @@
     "name": "Bathhouse",
     "path": "folders/Objects/Furniture/Bathhouse.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objParkingSpace",
-  "tags": [],
-  "resourceType": "GMObject",
 }

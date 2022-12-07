@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMFont",
+  "resourceVersion": "1.0",
+  "name": "fntPlaceholder",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,
@@ -17,8 +20,8 @@
   "includeTTF": false,
   "TTFName": "",
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "User_Interface_General",
+    "path": "texturegroups/User_Interface_General",
   },
   "ascenderOffset": 0,
   "ascender": 14,
@@ -204,8 +207,4 @@
     "name": "Fonts",
     "path": "folders/Fonts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "fntPlaceholder",
-  "tags": [],
-  "resourceType": "GMFont",
 }

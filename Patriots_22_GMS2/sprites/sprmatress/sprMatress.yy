@@ -21,8 +21,8 @@
   "width": 45,
   "height": 26,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Room_Laundromat",
+    "path": "texturegroups/Room_Laundromat",
   },
   "swatchColours": null,
   "gridX": 0,

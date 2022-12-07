@@ -21,8 +21,8 @@
   "width": 128,
   "height": 128,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Effects_Lighting",
+    "path": "texturegroups/Effects_Lighting",
   },
   "swatchColours": null,
   "gridX": 0,

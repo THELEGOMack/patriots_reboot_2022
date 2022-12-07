@@ -1,4 +1,4 @@
-//Wave(from, to, duration, offset)
+///Wave(from, to, duration, offset)
  
 // Returns a value that will wave back and forth between [from-to] over [duration] seconds
 // Examples

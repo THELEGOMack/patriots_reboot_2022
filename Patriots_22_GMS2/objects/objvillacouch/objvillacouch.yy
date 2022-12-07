@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objVillaCouch",
   "spriteId": {
     "name": "sprVillaCouch",
     "path": "sprites/sprVillaCouch/sprVillaCouch.yy",
@@ -8,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objFurniture",
+    "path": "objects/objFurniture/objFurniture.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,8 +34,4 @@
     "name": "Adrian Penthouse",
     "path": "folders/Objects/Furniture/Adrian Penthouse.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objVillaCouch",
-  "tags": [],
-  "resourceType": "GMObject",
 }

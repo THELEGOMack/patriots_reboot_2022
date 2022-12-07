@@ -21,8 +21,8 @@
   "width": 28,
   "height": 74,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "User_Interface_Combat",
+    "path": "texturegroups/User_Interface_Combat",
   },
   "swatchColours": null,
   "gridX": 0,

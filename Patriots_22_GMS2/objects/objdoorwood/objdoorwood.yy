@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objDoorWood",
   "spriteId": {
     "name": "sprDoorWood",
     "path": "sprites/sprDoorWood/sprDoorWood.yy",
@@ -31,8 +34,4 @@
     "name": "Doors",
     "path": "folders/Objects/Walls/Doors.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objDoorWood",
-  "tags": [],
-  "resourceType": "GMObject",
 }

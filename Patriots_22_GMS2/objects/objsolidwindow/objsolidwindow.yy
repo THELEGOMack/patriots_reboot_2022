@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objSolidWindow",
   "spriteId": null,
   "solid": true,
   "visible": true,
@@ -28,8 +31,4 @@
     "name": "Walls",
     "path": "folders/Objects/Walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objSolidWindow",
-  "tags": [],
-  "resourceType": "GMObject",
 }

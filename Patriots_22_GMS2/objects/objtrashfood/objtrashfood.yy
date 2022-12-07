@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objTrashFood",
   "spriteId": {
     "name": "sprTrashFood",
     "path": "sprites/sprTrashFood/sprTrashFood.yy",
@@ -31,8 +34,4 @@
     "name": "Bathhouse",
     "path": "folders/Objects/Furniture/Bathhouse.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objTrashFood",
-  "tags": [],
-  "resourceType": "GMObject",
 }

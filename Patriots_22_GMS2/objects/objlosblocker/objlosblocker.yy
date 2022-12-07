@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objLOSBlocker",
   "spriteId": {
     "name": "sprPlayerClip",
     "path": "sprites/sprPlayerClip/sprPlayerClip.yy",
@@ -31,8 +34,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objLOSBlocker",
-  "tags": [],
-  "resourceType": "GMObject",
 }

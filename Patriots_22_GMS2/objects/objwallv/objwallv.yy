@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objWallV",
   "spriteId": {
     "name": "sprWallV",
     "path": "sprites/sprWallV/sprWallV.yy",
@@ -31,8 +34,4 @@
     "name": "Walls",
     "path": "folders/Objects/Walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objWallV",
-  "tags": [],
-  "resourceType": "GMObject",
 }

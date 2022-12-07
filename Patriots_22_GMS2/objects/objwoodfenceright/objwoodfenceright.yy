@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objWoodFenceRight",
   "spriteId": {
     "name": "sprWoodFenceRight",
     "path": "sprites/sprWoodFenceRight/sprWoodFenceRight.yy",
@@ -31,8 +34,4 @@
     "name": "Walls",
     "path": "folders/Objects/Walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objWoodFenceRight",
-  "tags": [],
-  "resourceType": "GMObject",
 }

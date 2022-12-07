@@ -6,7 +6,7 @@ switch (global.playerCharacter)
 		sprite_index = sprSamWalkUnarmed;
 		playerLegs = sprSamLegs
         playerStr = 1.0
-		walkSpeed = 3
+		walkSpeed = 3.25
 		hp = 2;
 		#region sprites
 		sprPlayerWalkUnarmed = sprSamWalkUnarmed;
@@ -23,7 +23,7 @@ switch (global.playerCharacter)
 		sprite_index = sprAdrianWalkUnarmed;
 		playerLegs = sprAdrianLegs
         playerStr = 1.0
-		walkSpeed = 3
+		walkSpeed = 3.25
 		hp = 2;
 		
 		//unique weapon origin values
@@ -48,11 +48,11 @@ switch (global.playerCharacter)
 		sprPlayerWalkClub = sprAdrianWalkClub;
 		#endregion
 		break;
-	case 3: //Valerie
+	case 2: //Valerie
 		sprite_index = sprValWalkUnarmed;
 		playerLegs = sprValLegs
         playerStr = 0.8
-		walkSpeed = 3.5
+		walkSpeed = 3.75
 		hp = 2;
 		
 		//unique weapon origin values
@@ -67,7 +67,28 @@ switch (global.playerCharacter)
 		//sprPlayerWalkMagnum = sprValWalkMagnum;
 		#endregion
 		break;
+	case 3: //Iosif
+		sprite_index = sprIosifWalkUnarmed;
+		playerLegs = sprIosifLegs;
+        playerStr = 1.0;
+		walkSpeed = 3.25;
+		hp = 2;
+		//unique weapon origin values
+		#region sprites
+		sprPlayerWalkUnarmed = sprIosifWalkUnarmed;
+		sprPlayerWalkAK47 = sprIosifWalkAK47;
+		//etc.
+		#endregion
+		break;
+		break;
 	//additional characters
-	default: break;
+	default: //"null" character
+		sprite_index = sprPlayer;
+		playerLegs = sprPlayerLegs
+        playerStr = 10.0
+		walkSpeed = 1.0
+		hp = 69;
+		sprPlayerWalkUnarmed = sprPlayer;
+	break;
 	}
 }

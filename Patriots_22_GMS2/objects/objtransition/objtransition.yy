@@ -31,11 +31,11 @@
   ],
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"arrow","varType":5,"value":"sprArrow","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"arrowDir","varType":6,"value":"\"right\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
-        "\"up\"",
-        "\"down\"",
-        "\"left\"",
-        "\"right\"",
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"arrowDir","varType":6,"value":"0","rangeEnabled":true,"rangeMin":0.0,"rangeMax":359.0,"listItems":[
+        "0",
+        "90",
+        "180",
+        "270",
       ],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],

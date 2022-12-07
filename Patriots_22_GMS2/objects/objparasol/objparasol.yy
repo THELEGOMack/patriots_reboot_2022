@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objParasol",
   "spriteId": {
     "name": "sprPenthouseParasol",
     "path": "sprites/sprPenthouseParasol/sprPenthouseParasol.yy",
@@ -24,17 +27,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Adrian Penthouse",
     "path": "folders/Objects/Furniture/Adrian Penthouse.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objParasol",
-  "tags": [],
-  "resourceType": "GMObject",
 }

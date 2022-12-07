@@ -1,3 +1,4 @@
 targetRoom = rmLaundry
 targetX = 1216
-targetY = 224
+targetY = 352
+targetLayer = 400

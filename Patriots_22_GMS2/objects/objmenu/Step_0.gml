@@ -34,7 +34,7 @@ if menuSelectKey
 			case 0: room_goto(rmBathhouse1); break;
 			case 1: room_goto(rmMania_int_F1); break;
 			case 2: room_goto(rmLaundry); break;
-			case 3: room_goto(rmInvestigation1); break;
+			case 3: room_goto(rmVilla1); break;
 			case 4: room_goto(rmTESTROOM); break;
 			case 5: menuArrayLevel = 0; break;
 			}

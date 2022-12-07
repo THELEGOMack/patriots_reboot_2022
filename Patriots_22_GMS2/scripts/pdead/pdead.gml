@@ -3,8 +3,8 @@ function PDead(){
 	canShoot = false;
 	canLook =  false;
 	visible = false;
-	objCursor.visible = false;
-	scrPressRToRestart();
+	objEffector.visible = false;
+	//scrPressRToRestart();
 	if global.playerDead = false
 	{
 		var corpse = instance_create_layer(x, y, "body_layer", objPlayerDeadMachineGun);

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objPickupTruck",
   "spriteId": {
     "name": "sprPickupTruck",
     "path": "sprites/sprPickupTruck/sprPickupTruck.yy",
@@ -31,8 +34,4 @@
     "name": "Sam Apartment",
     "path": "folders/Objects/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objPickupTruck",
-  "tags": [],
-  "resourceType": "GMObject",
 }

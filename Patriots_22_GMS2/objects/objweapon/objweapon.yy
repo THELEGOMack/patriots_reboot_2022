@@ -29,7 +29,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"weapon","varType":2,"value":"AK47","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"weapon","varType":2,"value":"\"AK47\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
         "AK47",
         "M16",
         "Silencer",
@@ -37,6 +37,7 @@
         "Shotgun",
         "DoubleBarrel",
         "Magnum",
+        "Club",
       ],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],

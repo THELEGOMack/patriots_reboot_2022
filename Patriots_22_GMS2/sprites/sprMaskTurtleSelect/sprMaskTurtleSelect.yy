@@ -21,8 +21,8 @@
   "width": 80,
   "height": 80,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Player_Adrian",
+    "path": "texturegroups/Player_Adrian",
   },
   "swatchColours": null,
   "gridX": 0,

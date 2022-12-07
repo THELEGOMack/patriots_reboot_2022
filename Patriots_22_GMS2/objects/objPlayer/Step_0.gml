@@ -1,17 +1,10 @@
-if (hp <= 0) {state = 5;}
+if (hp <= 0) {state = 4;}
 
 //key bindings
 keyLeft = keyboard_check(ord("A"));
 keyRight = keyboard_check(ord("D"));
 keyUp = keyboard_check(ord("W"));
 keyDown = keyboard_check(ord("S"));
-
-//floor completion check
-//BROKEN? Stuck at 0
-if ((instance_number(objEnemyMafia) + instance_number(objEBullet)) <= 0) and (global.playerDead = false)
-{
-	global.floorClear = 1;
-} else global.floorClear = 0;
 
 //collision
 function move(move_x,move_y){
@@ -44,7 +37,7 @@ if axis.y!=0{axis.y/=dist}
 if axis.x!=0 or axis.y!=0{move_axis=point_direction(0,0,axis_interp.x,axis_interp.y)}
 axis_interp.x=approach(axis_interp.x,axis.x,0.125*delta*60)
 axis_interp.y=approach(axis_interp.y,axis.y,0.125*delta*60)
-if axis.x!=0 or axis.y!=0{spd_interp=lerp(spd_interp,point_distance(0,0,axis_interp.x,axis_interp.y)*spd,0.35*delta*60)}
+if axis.x!=0 or axis.y!=0{spd_interp=lerp(spd_interp,point_distance(0,0,axis_interp.x,axis_interp.y)*walkSpeed,0.35*delta*60)}
 else{spd_interp=approach(spd_interp,0,0.35*delta*60)}
 motion.x=lengthdir_x(spd_interp,move_axis)*delta*60
 motion.y=lengthdir_y(spd_interp,move_axis)*delta*60
@@ -54,10 +47,10 @@ function input(){
     axis.x=keyRight-keyLeft}
 input();
 
-if canLook = true{lookDir = point_direction(x, y, objCursor.x, objCursor.y);}
+if canLook = true{lookDir = point_direction(x, y, objEffector.x, objEffector.y);}
 else lookDir = image_angle;
 
-if (keyboard_check_pressed(vk_escape)){game_restart();}
+if (keyboard_check_pressed(vk_escape)){game_restart();} //restart game from main menu
 if (keyboard_check_pressed(ord("K"))){hp = 0} //suicide key for testing purposes
 	
 //movement
@@ -110,22 +103,21 @@ switch(state)
 	case 1: PFirearm(); break; //guns
 	case 2: PMelee(); break; //melee
 	case 3: break; //execution
-	case 4:	break; //cutscene (can't attack) [REMOVE THIS]
-	case 5: PDead(); break; //dead
+	case 4: PDead(); break; //dead
 	//etc.
 	default: break;
 }
 
 //state machine (state dictated by sprite index)
-switch (sprite_index)
+switch (weapon)
 {
-	case sprPlayerWalkUnarmed: state = 0; break;
+	case noone: state = 0; break;
 	//guns
-	case sprPlayerWalkSilencer:
-	case sprPlayerWalkShotgun:
-	case sprPlayerWalkM16:
-	case sprPlayerWalkAK47:
-	case sprPlayerWalkMagnum: state = 1; break;
+	case "Silencer":
+	case "Shotgun":
+	case "M16":
+	case "AK47":
+	case "Magnum": state = 1; break;
 	//melee
-	case sprPlayerWalkClub: state = 2; break;
+	case "Club": state = 2; break;
 }

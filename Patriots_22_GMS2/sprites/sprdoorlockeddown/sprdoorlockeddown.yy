@@ -21,8 +21,8 @@
   "width": 32,
   "height": 7,
   "textureGroupId": {
-    "name": "Walls",
-    "path": "texturegroups/Walls",
+    "name": "Room_Sam_Apartment",
+    "path": "texturegroups/Room_Sam_Apartment",
   },
   "swatchColours": null,
   "gridX": 0,

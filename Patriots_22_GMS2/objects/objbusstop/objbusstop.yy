@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objBusStop",
   "spriteId": {
     "name": "sprBusStop",
     "path": "sprites/sprBusStop/sprBusStop.yy",
@@ -34,8 +37,4 @@
     "name": "Vanguard",
     "path": "folders/Objects/Furniture/Vanguard.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objBusStop",
-  "tags": [],
-  "resourceType": "GMObject",
 }

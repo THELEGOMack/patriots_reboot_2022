@@ -15,7 +15,7 @@ option[0, 4] = "EXIT";
 option[1, 0] = "BATHHOUSE"
 option[1, 1] = "MANIA INTRO"
 option[1, 2] = "LAUNDROMAT"
-option[1, 3] = "INVESTIGATION"
+option[1, 3] = "VILLA"
 option[1, 4] = "TEST LEVEL"
 //etc.
 option[1, 5] = "<< back"

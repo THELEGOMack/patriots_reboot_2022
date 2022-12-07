@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objCar1",
   "spriteId": {
     "name": "sprCar1",
     "path": "sprites/sprCar1/sprCar1.yy",
@@ -31,8 +34,4 @@
     "name": "Sam Apartment",
     "path": "folders/Objects/Furniture/Sam Apartment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "objCar1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -11,12 +11,11 @@ axis_interp={                            // interpolated axis between the input
     y:0    
 }
 spd_interp=0                            // speed interpolated 
-spd=3.25                                // max speed
 move_axis=0                                //movement direction in angles
 col_radius = 12
 
 //initialize variables
-walkSpeed = 1;
+walkSpeed = 0; //Max walking speed
 accel = 0.4;
 legAngle = 0;
 playerLegs = sprPlayerLegs;
@@ -35,7 +34,6 @@ pWeaponDrop = noone;
 
 image_speed = 0;
 if !instance_exists(objCamera) {instance_create_layer(x, y, layer, objCamera);}
-instance_create_layer(x, y, layer, objCursor);
-instance_create_layer(x, y, layer, objPlayerViewCenter);
+if !instance_exists (objPlayerViewCenter) {instance_create_layer(x, y, layer, objPlayerViewCenter);}
 
 scrPlayerCharacter();
