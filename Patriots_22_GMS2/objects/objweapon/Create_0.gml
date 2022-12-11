@@ -1,6 +1,7 @@
 image_angle = random(360);
 dir = 0;
 ammo = 0;
+spriteMod = 0; //modifier that changes with a different "locale"
 
 //Pickup starting ammo values
 switch (weapon)

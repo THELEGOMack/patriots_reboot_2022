@@ -1,6 +1,6 @@
 if instance_exists(objPlayer)
 {
-	if (objPlayer.weapon = "Shotgun") {sprite_index = sprCursorShotgun}
+	if (objPlayer.weapon = "Shotgun") or (objPlayer.weapon = "DoubleBarrel") {sprite_index = sprCursorShotgun}
 	else {sprite_index = sprCursor}
 
 	//x = xInit; //these should be made independent from one another; game logic should follow the OBJECT rather than the mouse itself

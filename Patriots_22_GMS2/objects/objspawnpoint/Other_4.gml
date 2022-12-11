@@ -29,3 +29,10 @@ if (!instance_exists(objPlayer))
 	pSpawn.canMove = canMove;
 	pSpawn.canShoot = canShoot;
 }
+
+if (global.playerCharacter = 3) and (room = rmVilla1)
+{
+	var mask = instance_create_layer(x, y, "characters", objPlayerHeadwear);
+	mask.depth -= 10;
+	mask.sprite_index = sprIosifSkiMask;
+}

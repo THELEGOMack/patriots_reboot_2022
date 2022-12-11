@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objPlayerHeadwear",
+  "name": "objMuzzleSpark",
   "spriteId": {
-    "name": "sprIosifSkiMask",
-    "path": "sprites/sprIosifSkiMask/sprIosifSkiMask.yy",
+    "name": "sprPixel",
+    "path": "sprites/sprPixel/sprPixel.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,13 +25,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "Weapon",
+    "path": "folders/Objects/Weapon.yy",
   },
 }
