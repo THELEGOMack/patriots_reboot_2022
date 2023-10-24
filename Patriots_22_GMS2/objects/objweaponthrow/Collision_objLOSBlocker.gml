@@ -1,3 +1,3 @@
 move_bounce_all(false);
-speed *= 0.4;
+speed *= 0.6;
 //play sound

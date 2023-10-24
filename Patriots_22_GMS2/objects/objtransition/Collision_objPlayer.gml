@@ -1,9 +1,9 @@
 if (active = true)
 {
 //fade out
-//check direction
+//check player walking direction
 	room_goto(targetRoom);
 	objPlayer.x = targetX;
 	objPlayer.y = targetY;
-	objPlayer.layer = targetLayer;
+//get relative cursor coordinates
 } else exit

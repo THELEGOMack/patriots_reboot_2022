@@ -8,5 +8,5 @@ for (var i = 0; i < opLength; i++)
 	{
 	var _c = c_white;
 	if pos == i {_c = c_fuchsia}
-	draw_text_color(objCampaignTitle.x+opBorder, objCampaignTitle.y+opBorder + opSpace*i, option[menuArrayLevel, i], _c, _c, _c, _c, 1);
+	draw_text_color(x+opBorder, y+opBorder + opSpace*i, option[menuArrayLevel, i], _c, _c, _c, _c, 1);
 	}

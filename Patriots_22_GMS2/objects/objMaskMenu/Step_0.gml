@@ -8,6 +8,7 @@ if instance_exists(self)
 		canShoot = false;
 		image_index = 0;
 	}
+	with objEnemy {stateAggro = "passive"}
 }
 
 //destruction key (testing)

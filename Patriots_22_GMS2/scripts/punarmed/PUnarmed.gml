@@ -1,15 +1,11 @@
 function PUnarmed(){
-sprite_index = sprPlayerWalkUnarmed;
-weapon = noone;
-shootTimer = 0;
 scrWeaponPickup();
+if canShoot = false {shootTimer = 99}
 
-if mouse_check_button_pressed(mb_left) and (attacking = false) and (canShoot = true)
+if mouse_check_button(mb_left) and (shootTimer <= 0)
 {
 	scrPlayerPunch();
-	attacking = false;
 }
 
-//unarmed execution
 //crosshair
 }

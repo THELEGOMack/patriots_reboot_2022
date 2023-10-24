@@ -1,14 +1,22 @@
 function PFirearm(){
 scrWeaponThrow();
 scrWeaponPickup();
-weaponValues();
-shootTimer--;
-if shootTimer < -120 {shootTimer = -120}
 
-if mouse_check_button(mb_left) and (shootTimer <= 0) and (ammoPlayer > 0)
+if auto = true
 {
-	Shoot_New();
+	if mouse_check_button(mb_left) and (shootTimer <= 0) and (ammoPlayer > 0)
+	{
+		scrPAttack();
+		alarm[1] = shootTimer; //< is this the value I want to use for this?
+	}
+}
+else if auto = false
+{
+	if mouse_check_button_pressed(mb_left) and (shootTimer <= 0) and (ammoPlayer > 0)
+	{
+		scrPAttack();
+		alarm[1] = shootTimer;
+	}
 }
 
-//weapon auto/semi functionality; distinction between mouse_check_button and mouse_check_button_pressed
 }

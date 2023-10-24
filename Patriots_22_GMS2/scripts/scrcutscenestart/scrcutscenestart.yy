@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "scrCutsceneStart",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "Cutscene",
     "path": "folders/Scripts/Cutscene.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "scrCutsceneStart",
-  "tags": [],
-  "resourceType": "GMScript",
 }

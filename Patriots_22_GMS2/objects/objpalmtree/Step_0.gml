@@ -1,1 +1,0 @@
-image_angle = Wave(startingAngle, startingAngle + swayMod, 15 + swayDelay, 0);

@@ -38,4 +38,5 @@ if (speed = 0) and (bounce = 0)
     {
     spin = 0;
     done = true;
+	alarm[0] = 5;
     }

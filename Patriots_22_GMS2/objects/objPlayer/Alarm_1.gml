@@ -1,2 +1,2 @@
-/// @description Shell "wait"
-scrPlayerAnimEnd();
+/// @description end player animation
+scrAnimEnd();

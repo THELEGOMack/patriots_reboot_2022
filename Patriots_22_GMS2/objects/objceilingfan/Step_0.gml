@@ -1,4 +1,4 @@
-image_angle = image_angle + rot;
+image_angle += rot;
 /*if (instance_place(x, y, objPlayer))
 {
 	image_alpha = 0.25;

@@ -1,0 +1,1 @@
+color = objVoidController.color1

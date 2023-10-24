@@ -1,2 +1,3 @@
 //init
-active = true;
+active = false;
+depth = -9900;

@@ -1,18 +1,26 @@
 if instance_exists(objPlayer)
 {
-	if (objPlayer.weapon = "Shotgun") or (objPlayer.weapon = "DoubleBarrel") {sprite_index = sprCursorShotgun}
+	if objPlayer.canLook = true {
+	//apply mouse vector
+	mX1 = display_get_width()/2;
+	mY1 = display_get_height()/2;
+	mX2 = display_mouse_get_x();
+	mY2 = display_mouse_get_y();
+	len = point_distance(mX1, mY1, mX2, mY2);
+	dir = point_direction(mX1, mY1, mX2, mY2);
+	
+	x += lengthdir_x(len, dir) + (objPlayer.motion.x * pBlockX);
+	y += lengthdir_y(len, dir) + (objPlayer.motion.y * pBlockY);
+	//will still move if player is running into a wall
+	
+	if keyboard_check(vk_shift) {camViewMod = 0.5} else {camViewMod = 1.5}
+	
+	x = clamp(x, objPlayer.x - (mX1/camViewMod), objPlayer.x + (mX1/camViewMod)); //clamp to HUD surface instead?
+	y = clamp(y, objPlayer.y - (mY1/camViewMod), objPlayer.y + (mY1/camViewMod));
+	
+	if (objPlayer.weapon = "Shotgun") or (objPlayer.weapon = "DoubleBarrel") or (objPlayer.weapon = "Spas12") {sprite_index = sprCursorShotgun}
 	else {sprite_index = sprCursor}
-
-	//x = xInit; //these should be made independent from one another; game logic should follow the OBJECT rather than the mouse itself
-	//y = yInit;
-	x = mouse_x;
-	y = mouse_y; //just running with this for now
-	//cursor must move with the player! it seems to move correctly, but with a delay...
-
-	clamp(distance_to_object(objPlayer), 1, global.viewDistance) //broken?
-}
-
-if objPlayer.canLook = false
-{
-	visible = false;
-} else visible = true;
+	
+	}
+	else {sprite_index = noone;}
+} else {sprite_index = noone;}
