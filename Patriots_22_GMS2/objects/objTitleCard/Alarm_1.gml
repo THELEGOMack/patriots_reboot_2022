@@ -1,0 +1,1 @@
+textFadeOut = 1;

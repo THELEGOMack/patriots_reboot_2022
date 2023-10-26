@@ -10,6 +10,7 @@
     {"name":"inst_6C3F937C","path":"rooms/rmVetGarage/rmVetGarage.yy",},
     {"name":"inst_111DD40D","path":"rooms/rmVetGarage/rmVetGarage.yy",},
     {"name":"inst_D2EA505","path":"rooms/rmVetGarage/rmVetGarage.yy",},
+    {"name":"inst_48A8D402","path":"rooms/rmVetGarage/rmVetGarage.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -20,6 +21,16 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objSpawnPoint","path":"objects/objSpawnPoint/objSpawnPoint.yy",},"propertyId":{"name":"headwear","path":"objects/objSpawnPoint/objSpawnPoint.yy",},"value":"sprGriffinHead",},
           ],"rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_111DD40D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objEffector","path":"objects/objEffector/objEffector.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":320.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48A8D402","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"propertyId":{"name":"_hr","path":"objects/objTitleCard/objTitleCard.yy",},"value":"03",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"propertyId":{"name":"_min","path":"objects/objTitleCard/objTitleCard.yy",},"value":"56",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"propertyId":{"name":"_day","path":"objects/objTitleCard/objTitleCard.yy",},"value":"21",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"propertyId":{"name":"_mo","path":"objects/objTitleCard/objTitleCard.yy",},"value":"\"SEPTEMBER\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"propertyId":{"name":"_yr","path":"objects/objTitleCard/objTitleCard.yy",},"value":"1986",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"propertyId":{"name":"_city","path":"objects/objTitleCard/objTitleCard.yy",},"value":"CLARK COUNTY",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"propertyId":{"name":"_state","path":"objects/objTitleCard/objTitleCard.yy",},"value":"NEVADA",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"propertyId":{"name":"timeCol","path":"objects/objTitleCard/objTitleCard.yy",},"value":"$FF007FFF",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":320.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"furniturefloor","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D2EA505","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objSanFranPoster","path":"objects/objSanFranPoster/objSanFranPoster.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":256.0,},

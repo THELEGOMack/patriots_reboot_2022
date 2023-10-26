@@ -6,10 +6,15 @@ draw_set_color(c_white);
 
 //version number
 var text_ver = string(global.version);
+draw_set_font(fntPlaceholder);
+draw_set_halign(fa_left);
 draw_text_transformed(x, display_get_height()-32, text_ver, 1, 1, 0);
 
 //debug UI
-if instance_exists(objPlayer){
+/*if instance_exists(objPlayer){
+	draw_set_font(fntPlaceholder);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
 	var text_1 = "P weapon: " + string(objPlayer.weapon);
     var text_2 = "P ammo: " + string(objPlayer.ammoPlayer);
     var text_3 = "P death count: " + string(objPlayer.deathCount);

@@ -21,7 +21,7 @@ if menuSelectKey
 		case 0: //main menu
 		switch(pos)
 			{
-			case 0: scrLocaleSet(0); room_goto(rmAdrianPenthouse2); break; //New Game
+			case 0: scrLoadLevel("Penthouse") break; //New Game
 			case 1: room_goto(rmLevelSelect); break; //Level Select
 			case 2: menuArrayLevel = 1; break; //Achievements
 			case 3: menuArrayLevel = 2; break; //Settings
@@ -31,12 +31,12 @@ if menuSelectKey
 		case 1: //level select
 		switch(pos)
 			{
-			case 0: scrLocaleSet(0); room_goto(rmSamGarage); break;
-			case 1: scrLocaleSet(2); room_goto(rmVetGarage); break;
-			case 2: scrLocaleSet(0); room_goto(rmLaundry); break;
-			case 3: scrLocaleSet(1); room_goto(rmVilla1); break;
-			case 4: scrLocaleSet(2); room_goto(rmVegasMeth1); break;
-			case 5: scrLocaleSet(0); room_goto(rmEnemyTesting); break;
+			case 0: scrLoadLevel("SamGarage") break;
+			case 1: scrLoadLevel("vetGarage") break;
+			case 2: scrLoadLevel("Vanguard"); break;
+			case 3: scrLoadLevel("villa") break;
+			case 4: scrLoadLevel("vegasMeth") break;
+			case 5: scrLoadLevel("enemyTest"); break;
 			case 6: menuArrayLevel = 0; break;
 			}
 		break;

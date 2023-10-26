@@ -1,7 +1,11 @@
-if (speed != 0)
+if halo = true{
+gpu_set_blendmode(bm_add);
+draw_sprite_ext(sprHalo, 0, x, y, 0.5, 0.5, 0, c_white, random_range(0.15, 0.2));
+gpu_set_blendmode(bm_normal);}
+if speed >= 0.05
     {
-    draw_sprite_ext(NPCLegs, legIndex, x+1, y+1, image_xscale, image_yscale, legAngle, c_black, 0.5);
-    draw_sprite_ext(NPCLegs, legIndex, x, y, image_xscale, image_yscale, legAngle, c_white, image_alpha);
+	scrDropShadowCast(legs, legIndex, legAngle);
+    draw_sprite_ext(legs, legIndex, x, y, abs(image_xscale), abs(image_yscale), legAngle, c_white, image_alpha);
     }
-draw_sprite_ext(sprite_index, image_index, x+1, y+1, image_xscale, image_yscale, image_angle, c_black, 0.5);
+scrDropShadowCast(sprite_index, image_index, image_angle);
 draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);

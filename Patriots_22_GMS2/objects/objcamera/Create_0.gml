@@ -1,7 +1,7 @@
-view_width = objAppSurf.window_width/4;
-view_height = objAppSurf.window_height/4;
+view_width = objAppSurf.window_width/(4+global.cameraZoom);
+view_height = objAppSurf.window_height/(4+global.cameraZoom);
 
-window_scale = 8; //this value determines how "smooth" the visuals are
+window_scale = 2; //this value determines how "smooth" the visuals are?
 
 window_set_size(view_width*window_scale, view_height*window_scale);
 window_center();
@@ -13,8 +13,8 @@ smooth = 1;
 alarm[0] = 5;
 
 //"default" camera values (no player to follow)
-camXDef = 0;
-camYDef = 0;
+camXDef = objSpawnPoint.x;
+camYDef = objSpawnPoint.y;
 
 //max x and y boundaries
 camXMax = room_width - camera_get_view_width(view_camera[0]);

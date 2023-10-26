@@ -1,9 +1,2 @@
-if (!instance_exists(objPlayer)) and (spawnToggle = 1)
-{
-	var pSpawn = instance_create_layer(x, y, "characters", playerCharacter);
-	pSpawn.direction = direction;
-	pSpawn.canLook = canLook;
-	pSpawn.canMove = canMove;
-	pSpawn.canShoot = canShoot;
-	pSpawn.mask = headwear;
-}
+if !instance_exists(objCamera) {instance_create_layer(x, y, layer, objCamera);}
+if !instance_exists (objPlayerViewCenter) {instance_create_layer(x, y, layer, objPlayerViewCenter);}
