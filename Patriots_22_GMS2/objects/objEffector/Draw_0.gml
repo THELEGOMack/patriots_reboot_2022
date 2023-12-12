@@ -6,5 +6,8 @@ if (sprite_index != noone)
 }
 
 //draw overlay(s)
-//dip-to-black
+//basic black overlay
 draw_sprite_ext(sprPixel, 0, -room_width-60, -room_height-60, (room_width*2)+60,(room_height*2)+60, 0, c_black, fadeAlpha);
+
+//draw to GUI?
+//have it stick to the camera's position?

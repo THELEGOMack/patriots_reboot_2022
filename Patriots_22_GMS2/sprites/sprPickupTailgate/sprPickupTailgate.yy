@@ -30,8 +30,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Vehicles/Player.yy",
+    "name": "Pickup",
+    "path": "folders/Sprites/Vehicles/Player/Pickup.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

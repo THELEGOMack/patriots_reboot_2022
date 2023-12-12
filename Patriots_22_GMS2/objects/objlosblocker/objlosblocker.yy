@@ -33,5 +33,5 @@
     "path": "sprites/sprPlayerClip/sprPlayerClip.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

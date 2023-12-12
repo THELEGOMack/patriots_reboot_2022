@@ -1,6 +1,6 @@
 if instance_exists(objPlayer)
 {
-	if objPlayer.canLook = true {
+	if global.canLook = true {
 	//apply mouse vector
 	mX1 = display_get_width()/2;
 	mY1 = display_get_height()/2;
@@ -24,3 +24,17 @@ if instance_exists(objPlayer)
 	}
 	else {sprite_index = noone;}
 } else {sprite_index = noone;}
+
+//dip-to-black states
+switch(dtbFlag)
+{
+	case 0: //0% opacity
+		fadeAlpha -= 0.05;
+		if fadeAlpha <= 0 {fadeAlpha = 0}
+		break;
+	case 1: //100% opacity
+		fadeAlpha += 0.05;
+		if fadeAlpha >= 1 {fadeAlpha = 1}
+		break;
+	default: break;
+}

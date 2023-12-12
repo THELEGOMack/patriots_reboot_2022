@@ -54,7 +54,10 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"timeCol","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"$FF0000FF","varType":7,},
   ],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprIconTitleCard",
+    "path": "sprites/sprIconTitleCard/sprIconTitleCard.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

@@ -1,5 +1,9 @@
 if anim = noone {alarm[0] = 1}
 
+global.canMove = canMove;
+global.canShoot = canShoot;
+global.canLook = canLook;
+
 if anim != noone { //"cutscene" mode
 	_dummy = instance_create_depth(x, y, depth, objNPC);
 	_dummy.sprite_index = anim;

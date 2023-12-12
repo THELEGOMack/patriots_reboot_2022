@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Objects/Walls.yy",
+    "name": "Windows",
+    "path": "folders/Objects/Walls/Windows.yy",
   },
   "parentObjectId": null,
   "persistent": false,

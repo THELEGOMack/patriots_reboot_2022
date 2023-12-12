@@ -37,7 +37,10 @@ function PDead(){
 	
 	if keyboard_check_pressed(ord("R"))
 	{
-		with objEffector {fadeAlpha = 1}
-		scrPressRToRestart();
+		with objEffector {
+			fadeAlpha = 1;
+			alarm[1] = 10;
+			}
+		//scrPressRToRestart(); //DISABLED: Tempsave/load functions are broken, need remaking
 	}
 }

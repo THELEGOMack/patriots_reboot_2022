@@ -1,5 +1,5 @@
 //flicker
-timeCol1 = merge_color(timeCol, c_white, random_range(0, 0.2))
+timeCol1 = merge_color(timeCol, c_white, random_range(0, 0.25))
 
 //fade after timer
 if fade = 1 {bgFade -= 0.01}

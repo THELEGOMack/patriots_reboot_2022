@@ -1,1 +1,1 @@
-color = objVoidController.color1
+color = objVoidController.color1 //???

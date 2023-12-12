@@ -1,7 +1,7 @@
 direction += 0.25
 draw_set_alpha(alpha);
 
-//void type values
+//void type values (HM1 style)
 switch (voidType) {
 	case "pink/cyan": //default void colors
 		color1 = merge_color(c_black,merge_color(merge_color(c_fuchsia,c_aqua,0.5+lengthdir_x(0.5,direction*3.12)),c_red,0.125+lengthdir_y(0.125,direction*1.73)),0.75+lengthdir_y(0.25,direction*1.73));
@@ -18,6 +18,7 @@ switch (voidType) {
     default:
         break;
 }
+
 /*
 if global.comboFlash = 1 {
 color1=merge_color(c_red,c_black,amount)

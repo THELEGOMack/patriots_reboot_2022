@@ -1,0 +1,1 @@
+image_angle = random(floor(360));

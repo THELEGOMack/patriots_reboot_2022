@@ -2,14 +2,19 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objPenthouseHotTub",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Adrian Penthouse",
     "path": "folders/Objects/Furniture/Adrian Penthouse.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objFurniture",
+    "path": "objects/objFurniture/objFurniture.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

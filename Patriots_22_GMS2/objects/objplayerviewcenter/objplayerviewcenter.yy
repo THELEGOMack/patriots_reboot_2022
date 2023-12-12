@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprArrow",
-    "path": "sprites/sprArrow/sprArrow.yy",
+    "name": "sprIconTransitionR",
+    "path": "sprites/sprIconTransitionR/sprIconTransitionR.yy",
   },
   "spriteMaskId": null,
   "visible": false,

@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Vehicles",
-    "path": "folders/Objects/Player/Vehicles.yy",
+    "name": "Pickup",
+    "path": "folders/Objects/Player/Vehicles/Pickup.yy",
   },
   "parentObjectId": {
     "name": "objPlayerClip",

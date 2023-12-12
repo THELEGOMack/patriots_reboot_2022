@@ -9,6 +9,10 @@ surface_set_target(surf_shadow);
     {
         draw_sprite_ext(sprite_index, image_index, x+(global.shadowDirX*2), y+(global.shadowDirY*2), image_xscale, image_yscale, image_angle, c_black, image_alpha)
     }
+    with objGlassPane
+    {
+        draw_sprite_ext(sprite_index, image_index, x+(global.shadowDirX*2), y+(global.shadowDirY*2), image_xscale, image_yscale, image_angle, c_black, image_alpha)
+    }
     with objRailing
     {
         draw_sprite_ext(sprite_index, image_index, x+(global.shadowDirX*2), y+(global.shadowDirY*2), image_xscale, image_yscale, image_angle, c_black, image_alpha)
@@ -19,5 +23,8 @@ draw_surface_ext(surf_shadow, x, y, image_xscale, image_xscale, image_angle, c_w
 gpu_set_fog(false, c_white, 0, 0);
 
 } else {
+	
+	//clear previous surface first
+	
 surf_shadow = surface_create(room_width, room_height);
 }

@@ -39,9 +39,9 @@ if menuSelectKey
 
 	switch(pos)
 		{
-			case 0: room_goto(rmLaundry); break; //level one
-			case 1: room_goto(rmBathhouse1); break; //level two
-			case 2: room_goto(rmVilla1); break; //level three
+			case 0: scrLoadLevel("vanguard"); break; //level one
+			case 1: scrLoadLevel("villa"); break; //level two
+			case 2: scrLoadLevel("vegasMeth"); break; //level three
 			//...
 			}
 	

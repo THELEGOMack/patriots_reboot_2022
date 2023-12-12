@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Sam Apartment",
-    "path": "folders/Objects/Furniture/Sam Apartment.yy",
+    "name": "Cars",
+    "path": "folders/Objects/Furniture/Cars.yy",
   },
   "parentObjectId": {
     "name": "objFurniture",

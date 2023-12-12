@@ -24,7 +24,7 @@
     "name": "Tiles",
     "path": "texturegroups/Tiles",
   },
-  "tile_count": 66,
+  "tile_count": 72,
   "tileAnimation": {
     "FrameData": [
       0,
@@ -93,6 +93,12 @@
       63,
       64,
       65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
     ],
     "SerialiseFrameCount": 1,
   },

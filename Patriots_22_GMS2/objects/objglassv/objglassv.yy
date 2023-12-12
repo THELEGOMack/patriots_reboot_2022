@@ -6,10 +6,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Objects/Walls.yy",
+    "name": "Windows",
+    "path": "folders/Objects/Walls/Windows.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objGlassPane",
+    "path": "objects/objGlassPane/objGlassPane.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

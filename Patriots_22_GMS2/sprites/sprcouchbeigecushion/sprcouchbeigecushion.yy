@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Sprites/Furniture.yy",
+    "name": "Vegas",
+    "path": "folders/Sprites/Furniture/Vegas.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

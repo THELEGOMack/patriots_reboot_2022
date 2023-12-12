@@ -3,7 +3,8 @@ draw_sprite_ext(sprPixel, 0, 0, 0, display_get_width(), display_get_height(), 0,
 draw_set_font(fntLCD);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);
-draw_text_ext_color(_drawX, _drawY - lineSep*2, string("88:88 88"), 0, 3840, timeCol2, timeCol2, timeCol2, timeCol2, bgFade);
+draw_text_ext_color(_drawX, _drawY - lineSep*2, string("OO:OO OO"), 0, 3840, timeCol2, timeCol2, timeCol2, timeCol2, bgFade);
+draw_text_ext_color(_drawX, _drawY - lineSep*2, string("**:** **"), 0, 3840, timeCol2, timeCol2, timeCol2, timeCol2, bgFade);
 draw_text_ext_color(_drawX, _drawY - lineSep*2, string("{0}:{1} {2}", _hr, _min, _am_pm), 0, 3840, timeCol1, timeCol1, timeCol1, timeCol1, textFade);
 
 draw_set_font(fntTitleCard);

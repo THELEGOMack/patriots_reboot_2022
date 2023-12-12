@@ -18,8 +18,11 @@ option[1, 2] = "LAUNDROMAT"
 option[1, 3] = "RUSSIAN VILLA"
 option[1, 4] = "VEGAS HOTEL"
 option[1, 5] = "ENEMY TESTING"
+option[1, 6] = "TRANSITION TESTING"
+option[1, 7] = "SAM APARTMENT"
+option[1, 8] = "BATH HOUSE"
 //etc.
-option[1, 6] = "<< back"
+option[1, 9] = "<< back"
 
 //settings menu (MAKE DEDICATED ROOM)
 option[2, 0] = "KEYBINDINGS"

@@ -1,8 +1,9 @@
+sprite_index = noone;
 if _pm = true {_am_pm = "PM"} else {_am_pm = "AM"}
 _drawX = display_get_width()/2;
 _drawY = display_get_height()/2;
 timeCol1 = c_white;
-timeCol2 = merge_color(timeCol, c_black, 0.85)
+timeCol2 = merge_color(timeCol, c_black, 0.9)
 bgFade = 1;
 textFade = 1;
 lineSep = 40;

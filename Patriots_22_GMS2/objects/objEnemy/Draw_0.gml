@@ -1,5 +1,5 @@
 event_inherited();
-
+/*
 //debug
 draw_path(path, x, y, 1);
 var shootRangeDiff = shootRange;
@@ -28,7 +28,7 @@ draw_line_width_color(x, y, getSRLineBelowX, getSRLineBelowY, 0.5, c_red, c_red)
 draw_line_width_color(x, y, _lookDirX, _lookDirY, 3, c_yellow, c_yellow);
 draw_line_width_color(x, y, _aimDirX, _aimDirY, 2, c_aqua, c_aqua);
 draw_line_width_color(x, y, _directionX, _directionY, 1, c_lime, c_lime);
-/*
+
 draw_set_alpha(0.1);
 draw_line_width_color(x, y, objPlayer.x, objPlayer.y, 8, pathCheckColor, pathCheckColor);
 draw_set_alpha(0.75);
@@ -36,13 +36,13 @@ draw_line_width_color(x, y, objPlayer.x, objPlayer.y, 0.5, LOSCheckColor, LOSChe
 draw_set_alpha(1);
 
 var c_pink = merge_color(c_white, c_fuchsia, 0.75)
-draw_set_alpha(0.05);
+draw_set_alpha(0.02);
 draw_circle_color(x, y, sightMax, c_white, c_white, false);
 draw_circle_color(x, y, hearingRange, c_white, c_white, false);
 draw_circle_color(x, y, sightMin, c_white, c_white, false);
 draw_circle_color(x, y, killZone, c_pink, c_pink, false);
 draw_set_alpha(1);
-*/
+
 draw_set_font(fntPlaceholder);
 var text_1 = "playerSpotted: " + string(playerSpotted);
 var text_2 = "alerted: " + string(alerted);

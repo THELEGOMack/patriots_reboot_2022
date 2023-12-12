@@ -1,2 +1,2 @@
-/// @description fade-from-black
-time_source_start(_time_source);
+/// @description dip-to-black
+dtbFlag = 1;

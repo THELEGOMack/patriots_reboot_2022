@@ -1,19 +1,16 @@
 if hp <= 0 {state = "dead"}
 
-switch (state) {
+switch (state) { //MOVEMENT behavior
     case "static": scrEStateStatic(); break;
     case "patrol": scrEStatePatrol(); break;
     case "random": break;
-	case "aiming": break;
+	case "aiming": scrEStateAiming(); break;
 	//aiming? "static" but firing?
     case "pathing": scrEPathingState(); break;
     case "search": break;
     case "dead": scrEDead(); break;
     default: break;
 }
-
-//don't make the "passive" and "alert" into seperate states, just have a boolean value for "alerted" that determines reaction time, walking sprite, etc
-//perhaps the state can refer to movement behavior and transition into chasing/etc.
 
 scrELOSCheck(objPlayer);
 if scrELOSCheck(objPlayer) = true {

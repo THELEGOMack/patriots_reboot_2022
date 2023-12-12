@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Custom Lights",
-    "path": "folders/Objects/Custom Lights.yy",
+    "path": "folders/Objects/Aura/Custom Lights.yy",
   },
   "parentObjectId": {
     "name": "obj_Aura_Light_Parent",

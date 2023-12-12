@@ -24,6 +24,10 @@ global.bloodColor = -1;
 global.wpnSpriteMod = 0;
 //global.comboFlash = 0;
 
+//player flags
+global.canShoot = false;
+global.canMove = false;
+global.canLook = false;
 //player checks
 global.levelClear = false;
 global.playerInBounds = false; //whether the player is "inside" of a combat floor

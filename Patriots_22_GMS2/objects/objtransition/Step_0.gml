@@ -1,1 +1,0 @@
-if scrCheckFloorClear() = true {active = true}

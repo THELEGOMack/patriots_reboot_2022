@@ -58,15 +58,16 @@ deathCount = 0;
 lastX = 0;
 lastY = 0;
 bulletCount = 0;
+teleported = false;
 //control
 keyLeft = 0;
 keyRight = 0;
 keyUp = 0;
 keyDown = 0;
 
-canLook = 1;
-canShoot = 1;
-canMove = 1;
+canLook = global.canLook;
+canShoot = global.canShoot;
+canMove = global.canMove;
 
 //mask drawing
 mask = noone;
@@ -79,6 +80,7 @@ weapon = "unarmed";
 ammoPlayer = 0;
 shootTimer = 0; //attack "cooldown"
 pWeaponDrop = noone;
+//put default values in here?
 
 //accuracy variables
 shotsFired = 0;

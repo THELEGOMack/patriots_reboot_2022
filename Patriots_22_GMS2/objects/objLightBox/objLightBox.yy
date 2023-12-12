@@ -1,0 +1,46 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objLightBox",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Custom Lights",
+    "path": "folders/Objects/Aura/Custom Lights.yy",
+  },
+  "parentObjectId": {
+    "name": "obj_Aura_Light_Parent_Fast",
+    "path": "objects/obj_Aura_Light_Parent_Fast/obj_Aura_Light_Parent_Fast.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 0,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsShapePoints": [
+    {"x":127.0,"y":127.0,},
+    {"x":128.0,"y":128.0,},
+  ],
+  "physicsStartAwake": true,
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"color","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"$FFFFFFFF","varType":7,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"alpha","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"value":"1","varType":0,},
+  ],
+  "solid": false,
+  "spriteId": {
+    "name": "sprPixel",
+    "path": "sprites/sprPixel/sprPixel.yy",
+  },
+  "spriteMaskId": null,
+  "visible": false,
+}

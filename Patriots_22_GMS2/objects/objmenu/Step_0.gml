@@ -21,23 +21,26 @@ if menuSelectKey
 		case 0: //main menu
 		switch(pos)
 			{
-			case 0: scrLoadLevel("Penthouse") break; //New Game
+			case 0: scrLoadLevel("penthouse") break; //New Game
 			case 1: room_goto(rmLevelSelect); break; //Level Select
-			case 2: menuArrayLevel = 1; break; //Achievements
+			case 2: menuArrayLevel = 1; break; //~~Achievements~~ Level Select Actual
 			case 3: menuArrayLevel = 2; break; //Settings
 			case 4: game_end(); break; //Exit
 			}
 		break;
-		case 1: //level select
+		case 1: //level select actual
 		switch(pos)
 			{
-			case 0: scrLoadLevel("SamGarage") break;
+			case 0: scrLoadLevel("samGarage") break;
 			case 1: scrLoadLevel("vetGarage") break;
-			case 2: scrLoadLevel("Vanguard"); break;
+			case 2: scrLoadLevel("vanguard"); break;
 			case 3: scrLoadLevel("villa") break;
 			case 4: scrLoadLevel("vegasMeth") break;
 			case 5: scrLoadLevel("enemyTest"); break;
-			case 6: menuArrayLevel = 0; break;
+			case 6: scrLoadLevel("transitionTest"); break;
+			case 7: scrLoadLevel("samApartment"); break;
+			case 8: scrLoadLevel("bathHouse"); break;
+			case 9: menuArrayLevel = 0; break;
 			}
 		break;
 		case 2: //options

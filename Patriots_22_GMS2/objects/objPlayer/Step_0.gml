@@ -72,7 +72,7 @@ var moveY = (keyDown - keyUp) * walkSpeed;
 if canMove != false
 {
 	move(x+motion.x,y+motion.y);
-	if global.voidActive = false
+	if global.voidActive = false //Don't hard-code the boundaries in here!
 	{
 		x = min(x,room_width-8);
 		x = max(x, 8);

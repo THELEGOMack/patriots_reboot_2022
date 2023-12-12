@@ -1,4 +1,9 @@
 function scrEAggro(){
+	//weapon type check
 	lineColor = c_red;
-	lookDir = angle_rotate_lerp(lookDir, aimDir, turnSpeed)
+	
+	switch (weaponType) {
+	    case "gun": state = "aiming"; break;
+	    default: break;
+	}
 }

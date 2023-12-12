@@ -29,8 +29,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Sprites/Furniture.yy",
+    "name": "Vegas",
+    "path": "folders/Sprites/Furniture/Vegas.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -51,7 +51,7 @@
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
