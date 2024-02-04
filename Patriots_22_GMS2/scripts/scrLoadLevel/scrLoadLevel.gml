@@ -4,7 +4,7 @@ function scrLoadLevel(level){
 				global.cameraZoom = 0;
 				//set drop shadow with script
 				scrLocaleSet(0);
-				audio_stop_all(); //music
+				scrPlayMusic(beams, 0);
 				room_goto(rmTitle);
 			break;
 		case "penthouse":
@@ -28,7 +28,7 @@ function scrLoadLevel(level){
 		case "vetGarage":
 				global.cameraZoom = 1;
 				scrLocaleSet(2);
-				audio_stop_all(); //music
+				scrPlayMusic(MiamiJam, 0);
 				room_goto(rmVetGarage);
 			break;
 		case "vanguard":
@@ -40,11 +40,11 @@ function scrLoadLevel(level){
 		case "villa":
 				global.cameraZoom = 0;
 				scrLocaleSet(1);
-				audio_stop_all(); //music
+				scrPlayMusic(Delay, 0);
 				room_goto(rmVillaGate);
 			break;
 		case "vegasMeth":
-				global.cameraZoom = 0;
+				global.cameraZoom = -1;
 				scrLocaleSet(2);
 				scrPlayMusic(musGarbageDay, 0)
 				room_goto(rmVegasMeth1);
@@ -52,7 +52,7 @@ function scrLoadLevel(level){
 		case "enemyTest":
 				global.cameraZoom = 0;
 				scrLocaleSet(0);
-				audio_stop_all(); //music
+				scrPlayMusic(Blizzard, 0);
 				room_goto(rmEnemyTesting);
 			break;
 		case "transitionTest":
@@ -64,7 +64,7 @@ function scrLoadLevel(level){
 		case "bathHouse":
 				global.cameraZoom = 0;
 				scrLocaleSet(2);
-				audio_stop_all(); //music
+				scrPlayMusic(Blizzard, 0);
 				room_goto(rmBathhouse1);
 			break;
 	    default:

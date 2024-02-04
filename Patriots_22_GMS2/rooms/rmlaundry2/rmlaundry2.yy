@@ -93,7 +93,6 @@
     {"name":"inst_342AD1F","path":"rooms/rmLaundry2/rmLaundry2.yy",},
     {"name":"inst_5657936C","path":"rooms/rmLaundry2/rmLaundry2.yy",},
     {"name":"inst_174E85D7","path":"rooms/rmLaundry2/rmLaundry2.yy",},
-    {"name":"inst_17CFE309","path":"rooms/rmLaundry2/rmLaundry2.yy",},
     {"name":"inst_7A2BF860_1","path":"rooms/rmLaundry2/rmLaundry2.yy",},
     {"name":"inst_478FC0CA_1","path":"rooms/rmLaundry2/rmLaundry2.yy",},
     {"name":"inst_774BA66F_1","path":"rooms/rmLaundry2/rmLaundry2.yy",},
@@ -235,10 +234,6 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"characters","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_39821027","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objSpawnPoint","path":"objects/objSpawnPoint/objSpawnPoint.yy",},"properties":[],"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":256.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4DE38D51","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objSetupPathway","path":"objects/objSetupPathway/objSetupPathway.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":-32.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17CFE309","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objEMafia","path":"objects/objEMafia/objEMafia.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objEMafia","path":"objects/objEMafia/objEMafia.yy",},"propertyId":{"name":"weapon","path":"objects/objEMafia/objEMafia.yy",},"value":"\"Silencer\"",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"state","path":"objects/objEnemy/objEnemy.yy",},"value":"\"static\"",},
-          ],"rotation":-270.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":352.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"furniture","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_258C3758","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":3,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objBathtub","path":"objects/objBathtub/objBathtub.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":264.0,"y":168.0,},

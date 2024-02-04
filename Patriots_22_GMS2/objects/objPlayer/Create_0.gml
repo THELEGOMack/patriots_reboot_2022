@@ -89,3 +89,5 @@ shotsHit = 0;
 event_inherited();
 
 image_speed = 0;
+
+if !instance_exists(objPlayerViewCenter1) {instance_create_layer(x, y, layer, objPlayerViewCenter1);}

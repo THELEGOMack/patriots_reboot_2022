@@ -1,1 +1,0 @@
-viewDist = 8;

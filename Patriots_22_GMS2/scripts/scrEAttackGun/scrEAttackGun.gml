@@ -12,7 +12,7 @@ function scrEAttackGun(){ //THIS SCRIPT NEEDS CLEANING
 	var bullet = instance_create_depth(x, y, depth, objEBullet);
 	bullet.speed = 20;
 	bullet.direction = lookDir + random_range(spread, -spread);
-	if (weapon = "Shotgun") or (weapon = "DoubleBarrel") or (weapon = "Spas12")
+	if (weapon = "Shotgun") or (weapon = "DoubleBarrel") or (weapon = "Spas12") or (weapon = "Baikal")
 	{
 		for(var i = 0; i < 6; i += random_range(0,2);)
         {
@@ -31,6 +31,7 @@ function scrEAttackGun(){ //THIS SCRIPT NEEDS CLEANING
 		switch(weapon)
 	    {
 		    case "Shotgun":
+			case "Baikal":
 			case "Spas12":	 _shellInst.image_index = 0; _shellInst.direction += 180;		break;
 	
 		    case "AK47":
@@ -69,6 +70,7 @@ switch (weapon) {
 	case "MP5":			attackGun(objMuzzleFlash9mm,random_range(0.75, 1.25),random_range(0.9, 1.1),random_range(0.95, 1.05));		break;			
 	case "DoubleBarrel":
 	case "Spas12":
+	case "Baikal":
 	case "Shotgun":		attackGun(objMuzzleFlashShotgun,random_range(0.95, 1.05),random_range(0.95, 1.05),1);						break;
     default:			break;
 }

@@ -10,6 +10,7 @@
     {"name":"inst_69F1C214","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
     {"name":"inst_70CBFFFA","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
     {"name":"inst_230CCA00","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
+    {"name":"inst_4695FA09","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
     {"name":"inst_6655D7A2","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
     {"name":"inst_430E43B8","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
     {"name":"inst_15EE1EBB","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
@@ -31,11 +32,9 @@
     {"name":"inst_5F9B1CF1","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
     {"name":"inst_1F14B52F","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
     {"name":"inst_1F0147DC","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
-    {"name":"inst_14082AAC","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
-    {"name":"inst_67E4F16E","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
     {"name":"inst_45B56AD8","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
-    {"name":"inst_4CE49743","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
-    {"name":"inst_4695FA09","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
+    {"name":"inst_6EAA1E82","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
+    {"name":"inst_37B44D69","path":"rooms/rmVegasMeth1/rmVegasMeth1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -69,17 +68,14 @@
           ],"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_230CCA00","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objEffector","path":"objects/objEffector/objEffector.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6655D7A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objSetupPathway","path":"objects/objSetupPathway/objSetupPathway.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":-32.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14082AAC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objEBiker","path":"objects/objEBiker/objEBiker.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objEBiker","path":"objects/objEBiker/objEBiker.yy",},"propertyId":{"name":"weapon","path":"objects/objEBiker/objEBiker.yy",},"value":"\"MP5\"",},
-          ],"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4695FA09","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objMaskMenuGriffin","path":"objects/objMaskMenuGriffin/objMaskMenuGriffin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":544.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_67E4F16E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objEBiker","path":"objects/objEBiker/objEBiker.yy",},"properties":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6EAA1E82","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objEBiker","path":"objects/objEBiker/objEBiker.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objEBiker","path":"objects/objEBiker/objEBiker.yy",},"propertyId":{"name":"weapon","path":"objects/objEBiker/objEBiker.yy",},"value":"\"MP5\"",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":512.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CE49743","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objEBiker","path":"objects/objEBiker/objEBiker.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objEBiker","path":"objects/objEBiker/objEBiker.yy",},"propertyId":{"name":"weapon","path":"objects/objEBiker/objEBiker.yy",},"value":"\"Pistol\"",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"state","path":"objects/objEnemy/objEnemy.yy",},"value":"\"patrol\"",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":384.0,},
+          ],"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":288.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37B44D69","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objEBiker","path":"objects/objEBiker/objEBiker.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"behavior","path":"objects/objEnemy/objEnemy.yy",},"value":"\"patrolL\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objEBiker","path":"objects/objEBiker/objEBiker.yy",},"propertyId":{"name":"weapon","path":"objects/objEBiker/objEBiker.yy",},"value":"\"Bat\"",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":416.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"furniture","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5BAE40AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objGriffinPickupWhole","path":"objects/objGriffinPickupWhole/objGriffinPickupWhole.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":544.0,},

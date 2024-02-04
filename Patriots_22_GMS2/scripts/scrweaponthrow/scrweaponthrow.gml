@@ -1,5 +1,5 @@
 function scrWeaponThrow(){
-if (mouse_check_button_pressed(mb_right) and (weapon != "unarmed")) //and (shootTimer <= 0))
+if (mouse_check_button_pressed(mb_right) and (weapon != "unarmed"))
     {
     var throwWeapon = instance_create_depth(x, y, depth, objWeaponThrow);
     throwWeapon.direction = lookDir;
@@ -10,6 +10,7 @@ if (mouse_check_button_pressed(mb_right) and (weapon != "unarmed")) //and (shoot
         case "AK47":			throwWeapon.sprite_index = sprAK47;         break;
         case "M16":				throwWeapon.sprite_index = sprM16;          break;
         case "Shotgun":			throwWeapon.sprite_index = sprShotgun;      break;
+        case "Baikal":			throwWeapon.sprite_index = sprBaikal;      break;
 		case "Spas12":			throwWeapon.sprite_index = sprSpas12;		break;
         case "Silencer":		throwWeapon.sprite_index = sprSilencer;     break;
         case "MP5":				throwWeapon.sprite_index = sprMP5;          break;

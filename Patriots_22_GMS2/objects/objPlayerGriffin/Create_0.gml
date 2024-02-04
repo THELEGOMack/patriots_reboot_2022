@@ -1,6 +1,6 @@
 legs = sprGriffinLegs
 playerStr = 1.0
-walkSpeed = 3.25
+if room = rmVetGarage {walkSpeed = 2.75} else {walkSpeed = 3.25}
 hp = 2;
 mask = sprGriffinHead;
 

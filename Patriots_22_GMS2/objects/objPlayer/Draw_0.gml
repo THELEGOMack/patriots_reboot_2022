@@ -1,6 +1,6 @@
 if (keyUp or keyDown or keyRight or keyLeft) and (canMove = true)
 {
-    scrDropShadowCast(legs, legIndex, move_axis);
+    scrDropShadowCast(legs, legIndex, move_axis); //LEG SHADOWS BROKEN
     draw_sprite_ext(legs, legIndex, x, y, abs(image_xscale), abs(image_yscale), move_axis, c_white, image_alpha);
 }
 
@@ -23,3 +23,7 @@ if canShoot = true {
 	draw_line_width_color(x, y, getLineBelowX, getLineBelowY, 0.5, c_white, c_white);
 	draw_set_alpha(1);
 }
+//minimum radius
+draw_set_alpha(0.2)
+draw_circle_color(x, y, 16, c_white, c_white, false)
+draw_set_alpha(1)

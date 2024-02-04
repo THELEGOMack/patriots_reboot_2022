@@ -44,7 +44,8 @@ if attacking = 0 {
 								case 1: maskPosMod = -1; break;
 								case 2: maskPosMod = 0; break;
 								} break;
-			case "Shotgun":		
+			case "Shotgun":
+			case "Baikal": //incorrect alignment -- does this vary between player sprites?
 								switch (floor(image_index)) {
 								case 0:
 								case 1: maskPosMod = -1; break;

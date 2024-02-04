@@ -1,9 +1,21 @@
 function scrGetWeapon(){ //these are STARTING values
 switch (weapon) {		
 	case "Shotgun":
-		sprite_index = sprWalkShotgun; //this is what is overriding the animation for idle enemies?
+		sprite_index = sprWalkShotgun; //THIS is what is overriding the animation for idle enemies
 		startingAmmo = 6;
 		sfx = sndShotgun; auto = false;
+		flashValue = 12; shellToggle = true; shellSource = 9; shellWait = 30;
+		shotSpeed = 1; shotDelay = 40; spread = random_range(5, 7);	shootAnimSpeed = 2;
+		piercing = false; silenced = false;
+		barrelLength = 20; barrelHeight = 0;
+		shootRange = 6;
+		weaponType = "gun";
+		break;
+		
+	case "Baikal":
+		sprite_index = sprWalkBaikal;
+		startingAmmo = 6;
+		sfx = sndBaikal; auto = false;
 		flashValue = 12; shellToggle = true; shellSource = 9; shellWait = 30;
 		shotSpeed = 1; shotDelay = 40; spread = random_range(5, 7);	shootAnimSpeed = 2;
 		piercing = false; silenced = false;
@@ -23,6 +35,20 @@ switch (weapon) {
 		shootRange = 6;
 		with objPlayer {if ammoPlayer = 1 {barrelHeight = -2} else barrelHeight = 0;}
 		//with objEnemy {}
+		weaponType = "gun";
+		break;
+		
+	case "SawedOff":
+		sprite_index = sprWalkSawedOff;
+		startingAmmo = 2;
+		sfx = sndDoubleBarrel; auto = false;
+		flashValue = 12; shellToggle = false; shellSource = 0; shellWait = 0;
+		shotSpeed = 1; shotDelay = 2; spread = random_range(3, 9); shootAnimSpeed = 3;
+		piercing = false; silenced = false;
+		barrelLength = 21; //UPDATE THIS AND BARREL HEIGHT BELOW
+		shootRange = 6;
+		//with objPlayer {if ammoPlayer = 1 {barrelHeight = -2} else barrelHeight = 0;}
+		////with objEnemy {}
 		weaponType = "gun";
 		break;
 		

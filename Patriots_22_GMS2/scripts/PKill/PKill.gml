@@ -53,7 +53,7 @@ function PKill(){
 		}
 	}
 	
-	with objPlayerViewCenter
+	with objPlayerViewCenter1
 	{
 		x = objPlayer.x;
 		y = objPlayer.y;

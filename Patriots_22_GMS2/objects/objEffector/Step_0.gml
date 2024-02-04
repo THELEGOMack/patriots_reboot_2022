@@ -1,6 +1,6 @@
 if instance_exists(objPlayer)
 {
-	if global.canLook = true {
+	if objPlayer.canLook = true {
 	//apply mouse vector
 	mX1 = display_get_width()/2;
 	mY1 = display_get_height()/2;
@@ -9,16 +9,12 @@ if instance_exists(objPlayer)
 	len = point_distance(mX1, mY1, mX2, mY2);
 	dir = point_direction(mX1, mY1, mX2, mY2);
 	
-	x += lengthdir_x(len, dir) + (objPlayer.motion.x * pBlockX);
-	y += lengthdir_y(len, dir) + (objPlayer.motion.y * pBlockY);
-	//will still move if player is running into a wall
+	x += lengthdir_x(len, dir) + objCursorBox.xMovement;
+	y += lengthdir_y(len, dir) + objCursorBox.yMovement;
+	x = clamp(x, objCursorBox.x, objCursorBox.x + objCursorBox.image_xscale);
+	y = clamp(y, objCursorBox.y, objCursorBox.y + objCursorBox.image_yscale);
 	
-	if keyboard_check(vk_shift) {camViewMod = 0.5} else {camViewMod = 1.5}
-	
-	x = clamp(x, objPlayer.x - (mX1/camViewMod), objPlayer.x + (mX1/camViewMod)); //clamp to HUD surface instead?
-	y = clamp(y, objPlayer.y - (mY1/camViewMod), objPlayer.y + (mY1/camViewMod));
-	
-	if (objPlayer.weapon = "Shotgun") or (objPlayer.weapon = "DoubleBarrel") or (objPlayer.weapon = "Spas12") {sprite_index = sprCursorShotgun}
+	if (objPlayer.weapon = "Shotgun") or (objPlayer.weapon = "DoubleBarrel") or (objPlayer.weapon = "Spas12") or (objPlayer.weapon = "Baikal") {sprite_index = sprCursorShotgun}
 	else {sprite_index = sprCursor}
 	
 	}

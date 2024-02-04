@@ -9,7 +9,7 @@ function PDead(){
 	{
 		global.playerDead = true;
 		var corpse = instance_create_layer(x, y, "body_layer", objPlayerDead);
-		var drop = instance_create_layer(x, y, "body_layer", objWeapon);
+		var drop = instance_create_layer(x, y, "body_layer", objWeaponParent);
 		corpse.image_angle = direction;
 		corpse.direction = direction;
 		if bulletCount >= 3 {

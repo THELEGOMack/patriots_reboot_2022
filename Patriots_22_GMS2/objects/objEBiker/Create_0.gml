@@ -1,16 +1,23 @@
-hp = 1;
+///sprite values
+//walk
 legs = sprBikerLegs;
 sprWalkUnarmed = sprBikerWalkUnarmed;
-sprWalkBat = sprBikerWalkBat;
-sprWalkKnife = sprBikerWalkKnife;
-sprWalkChain = sprBikerWalkChain;
-sprWalkDoubleBarrel = sprBikerWalkDoubleBarrel;
-sprWalkM16 = sprBikerWalkM16;
-sprWalkMP5 = sprBikerWalkMP5;
-sprWalkPistol = sprBikerWalkPistol;
 sprWalkShotgun = sprBikerWalkShotgun;
-//define corpse sprites
-
-//idle animations?
+//sprWalkSawedOff = sprBikerWalkSawedOff;
+sprWalkMP5 = sprBikerWalkMP5;
+sprWalkM16 = sprBikerWalkM16;
+sprWalkBat = sprBikerWalkBat;
+//sprWalkButterfly = sprMafiaWalkButterfly;
+//dead (placeholders)
+sprDeadMachinegun = sprMafiaDeadMachinegun;
+sprDeadShotgun = sprMafiaDeadShotgun;
 
 event_inherited();
+
+/*
+if idleAnim != noone { //not working -- come back to this issue later
+	sprite_index = idleAnim;
+	//alarm to trigger animation
+	}
+*/
+scrEGetAmmo();

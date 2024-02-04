@@ -21,7 +21,7 @@ if menuSelectKey
 		case 0: //main menu
 		switch(pos)
 			{
-			case 0: scrLoadLevel("penthouse") break; //New Game
+			case 0: scrLoadLevel("enemyTest") break; //New Game
 			case 1: room_goto(rmLevelSelect); break; //Level Select
 			case 2: menuArrayLevel = 1; break; //~~Achievements~~ Level Select Actual
 			case 3: menuArrayLevel = 2; break; //Settings
@@ -36,7 +36,7 @@ if menuSelectKey
 			case 2: scrLoadLevel("vanguard"); break;
 			case 3: scrLoadLevel("villa") break;
 			case 4: scrLoadLevel("vegasMeth") break;
-			case 5: scrLoadLevel("enemyTest"); break;
+			case 5: scrLoadLevel("penthouse"); break;
 			case 6: scrLoadLevel("transitionTest"); break;
 			case 7: scrLoadLevel("samApartment"); break;
 			case 8: scrLoadLevel("bathHouse"); break;

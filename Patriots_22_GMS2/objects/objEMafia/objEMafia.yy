@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Mafia",
-    "path": "folders/Objects/Enemy/Normal/Mafia.yy",
+    "path": "folders/Objects/Enemy/Mafia.yy",
   },
   "parentObjectId": {
     "name": "objEnemy",
@@ -31,16 +31,16 @@
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"weapon","filters":[],"listItems":[
         "\"unarmed\"",
-        "\"Silencer\"",
-        "\"Skorpion\"",
-        "\"M16\"",
-        "\"AK47\"",
         "\"Shotgun\"",
         "\"DoubleBarrel\"",
+        "\"M16\"",
+        "\"AK47\"",
+        "\"Skorpion\"",
+        "\"Silencer\"",
         "\"Bat\"",
+        "\"Pipe\"",
         "\"Knife\"",
         "\"Club\"",
-        "\"Pipe\"",
       ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"unarmed\"","varType":6,},
   ],
   "solid": false,
@@ -48,9 +48,6 @@
     "name": "sprMafiaWalkUnarmed",
     "path": "sprites/sprMafiaWalkUnarmed/sprMafiaWalkUnarmed.yy",
   },
-  "spriteMaskId": {
-    "name": "sprEMask",
-    "path": "sprites/sprEMask/sprEMask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

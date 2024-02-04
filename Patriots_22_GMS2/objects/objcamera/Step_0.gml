@@ -28,6 +28,7 @@ if (follow != noone)
 	var cameraX = clamp(follow.x - camera_get_view_width(view_camera[0])/2, camXMin, camXMax);
 	var cameraY = clamp(follow.y - camera_get_view_height(view_camera[0])/2, camYMin, camYMax);
 	camera_set_view_pos(view_camera[0], lerp(camera_get_view_x(view_camera[0]), cameraX, smooth), lerp(camera_get_view_y(view_camera[0]), cameraY, smooth));
+	if (keyboard_check(vk_shift)) {follow = objPlayerViewCenter2} else {follow = objPlayerViewCenter1}
 } else {
 	x = camXDef;
 	y = camYDef;

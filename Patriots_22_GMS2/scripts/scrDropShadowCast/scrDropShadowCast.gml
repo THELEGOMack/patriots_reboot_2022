@@ -4,4 +4,4 @@ draw_sprite_ext(sprIndex, imgIndex, x+global.shadowDirX, y+global.shadowDirY, im
 gpu_set_fog(false, c_white, 0, 0);
 }
 
-//MID-DRAWING FUNCTION
+//MID-DRAWING FUNCTION?

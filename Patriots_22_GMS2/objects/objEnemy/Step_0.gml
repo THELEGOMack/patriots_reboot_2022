@@ -1,36 +1,13 @@
-if hp <= 0 {state = "dead"}
+//set sprite when attacking?
 
-switch (state) { //MOVEMENT behavior
+if hp <= 0 {scrEDead();}
+
+//movement behavior
+switch (behavior) {
     case "static": scrEStateStatic(); break;
-    case "patrol": scrEStatePatrol(); break;
-    case "random": break;
-	case "aiming": scrEStateAiming(); break;
-	//aiming? "static" but firing?
-    case "pathing": scrEPathingState(); break;
-    case "search": break;
-    case "dead": scrEDead(); break;
+    case "patrolL": scrEStatePatrolL(); break; //patrol counterclockwise
+    case "patrolR": scrEStatePatrolR(); break; //patrol clockwise
+    case "wander": break;
+    case "wallHug": break; //dog/SWAT pathing AI
     default: break;
 }
-
-scrELOSCheck(objPlayer);
-if scrELOSCheck(objPlayer) = true {
-	LOSCheckColor = c_lime;
-	seePlayer = true;
-	scrEPathUpdate();
-	} else {
-		LOSCheckColor = c_red;
-		seePlayer = false;
-		}
-
-scrELOSCheck(objEnemyDead);
-scrEStraightPathCheck(objPlayer);
-if scrEStraightPathCheck(objPlayer) = true {pathCheckColor = c_lime} else {pathCheckColor = c_red}
-
-if alerted = true {scrEAlert()} else {scrEPassive()}
-if playerSpotted = true {scrEAggro()}
-
-if (aggroTimer <= 0) {aggroTimer = 0}
-if (aggroTimer >= aggroLimit) {aggroTimer = aggroLimit}
-
-if shootTimer <= 0 {shootTimer = 0}
-if shootTimer >= shotDelay {shootTimer = shotDelay}

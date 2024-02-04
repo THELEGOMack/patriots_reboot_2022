@@ -5,9 +5,7 @@ if (sprite_index != noone)
 	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);
 }
 
-//draw overlay(s)
-//basic black overlay
-draw_sprite_ext(sprPixel, 0, -room_width-60, -room_height-60, (room_width*2)+60,(room_height*2)+60, 0, c_black, fadeAlpha);
-
-//draw to GUI?
-//have it stick to the camera's position?
+draw_text(x + 10, y + 10, "xInit: " + string(xInit))
+draw_text(x + 10, y + 25, "yInit: " + string(yInit))
+draw_text(x + 10, y + 40, "x: " + string(x))
+draw_text(x + 10, y + 55, "y: " + string(y))

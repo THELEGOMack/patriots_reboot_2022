@@ -3,10 +3,9 @@
   "resourceVersion": "1.0",
   "name": "objEnemy",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":3,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -32,10 +31,12 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"state","filters":[],"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"behavior","filters":[],"listItems":[
         "\"static\"",
-        "\"patrol\"",
-        "\"random\"",
+        "\"patrolL\"",
+        "\"patrolR\"",
+        "\"wander\"",
+        "\"wallHug\"",
       ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"static\"","varType":6,},
   ],
   "solid": true,

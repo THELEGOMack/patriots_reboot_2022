@@ -1,7 +1,7 @@
 if (hp <= 0) {state = 4;}
 
 //camera following (hard-coding for now)
-with objCamera {follow = objPlayerViewCenter}
+//with objCamera {follow = objPlayerViewCenter}
 
 //key bindings
 keyLeft = keyboard_check(ord("A"));
@@ -88,7 +88,7 @@ if canMove != false
 
 //Attacks and cooldown
 shootTimer--;
-if shootTimer < -120 {shootTimer = -120}
+if shootTimer < -1 {shootTimer = -1}
 
 //execution
 if (place_meeting(x, y, objEnemyKnockout)) and (keyboard_check_pressed(vk_space))
@@ -137,6 +137,7 @@ switch (weapon)
 	case "Pistol":
 	case "Skorpion":
 	case "Shotgun":
+	case "Baikal":
 	case "Spas12":
 	case "DoubleBarrel":
 	case "M16":
@@ -144,5 +145,8 @@ switch (weapon)
 	case "MP5":
 	case "Magnum": state = 1; break;
 	//melee
+	case "Bat":
+	case "Knife":
+	case "Pipe":
 	case "Club": state = 2; break;
 }

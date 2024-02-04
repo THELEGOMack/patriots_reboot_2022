@@ -1,2 +1,0 @@
-/// @description anim end
-scrAnimEnd();

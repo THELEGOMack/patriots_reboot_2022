@@ -6,7 +6,7 @@ hp = 2;
 //sprites
 sprWalkUnarmed = sprIosifWalkUnarmed;
 sprWalkAK47 = sprIosifWalkAK47;
-sprWalkShotgun = sprIosifWalkShotgun;
+sprWalkBaikal = sprIosifWalkBaikal;
 //etc.
 
 event_inherited();

@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Bikers",
-    "path": "folders/Objects/Enemy/Normal/Bikers.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "parentObjectId": {
     "name": "objEnemy",
@@ -35,20 +35,18 @@
         "\"MP5\"",
         "\"M16\"",
         "\"Shotgun\"",
-        "\"DoubleBarrel\"",
+        "\"SawedOff\"",
         "\"Bat\"",
-        "\"Knife\"",
+        "\"Butterfly\"",
         "\"Chain\"",
       ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"unarmed\"","varType":6,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"idleAnim","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":5,},
   ],
   "solid": false,
   "spriteId": {
     "name": "sprBikerWalkUnarmed",
     "path": "sprites/sprBikerWalkUnarmed/sprBikerWalkUnarmed.yy",
   },
-  "spriteMaskId": {
-    "name": "sprEMask",
-    "path": "sprites/sprEMask/sprEMask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

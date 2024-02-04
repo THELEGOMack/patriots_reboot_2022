@@ -1,21 +1,20 @@
-hp = 1;
+///sprite values
+//walk
 legs = sprMafiaLegs;
 sprWalkUnarmed = sprMafiaWalkUnarmed;
-sprWalkSilencer = sprMafiaWalkSilencer;
-sprWalkSkorpion = sprMafiaWalkSkorpion;
-sprWalkM16 = sprMafiaWalkM16;
-sprWalkAK47 = sprMafiaWalkAK47;
 sprWalkShotgun = sprMafiaWalkShotgun;
 sprWalkDoubleBarrel = sprMafiaWalkDoubleBarrel;
+sprWalkM16 = sprMafiaWalkM16;
+sprWalkAK47 = sprMafiaWalkAK47;
+sprWalkSkorpion = sprMafiaWalkSkorpion;
+sprWalkSilencer = sprMafiaWalkSilencer;
 sprWalkBat = sprMafiaWalkBat;
+sprWalkPipe = sprMafiaWalkPipe;
 sprWalkKnife = sprMafiaWalkKnife;
 sprWalkClub = sprMafiaWalkClub;
-sprWalkPipe = sprMafiaWalkPipe;
-//define corpse sprites
+//dead
 sprDeadMachinegun = sprMafiaDeadMachinegun;
 sprDeadShotgun = sprMafiaDeadShotgun;
 
-//idle animations?
-//scrERollWeapon();
-
 event_inherited();
+scrEGetAmmo();
